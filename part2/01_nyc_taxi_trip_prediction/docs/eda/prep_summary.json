@@ -1,0 +1,27 @@
+{
+  "n_rows_raw": 2964624,
+  "n_rows_after_cleaning": 2831174,
+  "pct_dropped": 4.5,
+  "n_train": 2360809,
+  "n_test": 470365,
+  "cutoff_day_of_month": 26,
+  "feature_cols": [
+    "PULocationID",
+    "DOLocationID",
+    "pickup_borough",
+    "dropoff_borough",
+    "same_borough",
+    "haversine_km",
+    "pickup_hour",
+    "pickup_dow",
+    "is_weekend",
+    "is_rush_hour",
+    "passenger_count",
+    "is_airport_ratecode"
+  ],
+  "target_cols": [
+    "duration_min",
+    "fare_amount"
+  ],
+  "n_od_pairs_with_history": 9690
+}

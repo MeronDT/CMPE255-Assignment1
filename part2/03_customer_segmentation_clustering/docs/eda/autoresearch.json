@@ -1,0 +1,110 @@
+{
+  "phase1_unconstrained_optimum": {
+    "k": 2,
+    "note": "statistically best-separated but not business-actionable (see docstring)",
+    "silhouette": 0.3550090672302381,
+    "davies_bouldin": 1.0749005077596538,
+    "calinski_harabasz": 2921.775325732703
+  },
+  "phase2_feature_transform_search": [
+    {
+      "feature_set": "rfm_core",
+      "scaler": "standard",
+      "silhouette": 0.2624353938391362,
+      "davies_bouldin": 1.1183761837576474,
+      "calinski_harabasz": 2118.303188062491
+    },
+    {
+      "feature_set": "rfm_core",
+      "scaler": "robust",
+      "silhouette": 0.26998270531400204,
+      "davies_bouldin": 1.0725081747673404,
+      "calinski_harabasz": 2069.177209323534
+    },
+    {
+      "feature_set": "rfm_core",
+      "scaler": "minmax",
+      "silhouette": 0.30234202590065073,
+      "davies_bouldin": 1.1663400860852968,
+      "calinski_harabasz": 3499.673480919105
+    },
+    {
+      "feature_set": "rfm_core_plus_cancellation",
+      "scaler": "standard",
+      "silhouette": 0.2475164711118101,
+      "davies_bouldin": 1.1684915240679452,
+      "calinski_harabasz": 2108.6802791599475
+    },
+    {
+      "feature_set": "rfm_core_plus_cancellation",
+      "scaler": "robust",
+      "silhouette": 0.3127547657225147,
+      "davies_bouldin": 0.8290570441166345,
+      "calinski_harabasz": 8488.021801559988
+    },
+    {
+      "feature_set": "rfm_core_plus_cancellation",
+      "scaler": "minmax",
+      "silhouette": 0.35643422260825336,
+      "davies_bouldin": 0.9565199376336782,
+      "calinski_harabasz": 3416.3708513904558
+    }
+  ],
+  "phase3_hill_climb": [
+    {
+      "k": 3,
+      "silhouette": 0.40850824057890195,
+      "davies_bouldin": 0.9464884354978281,
+      "calinski_harabasz": 4084.2891514482867
+    },
+    {
+      "k": 4,
+      "silhouette": 0.34234831219827994,
+      "davies_bouldin": 1.0562539043936634,
+      "calinski_harabasz": 3571.6357808096436
+    },
+    {
+      "k": 5,
+      "silhouette": 0.35643422260825336,
+      "davies_bouldin": 0.9565199376336782,
+      "calinski_harabasz": 3416.3708513904558
+    },
+    {
+      "k": 6,
+      "silhouette": 0.30627847050647483,
+      "davies_bouldin": 1.0904460573227117,
+      "calinski_harabasz": 3094.266603167828
+    },
+    {
+      "k": 7,
+      "silhouette": 0.2689983021236123,
+      "davies_bouldin": 1.206245117110284,
+      "calinski_harabasz": 2866.2882705757957
+    },
+    {
+      "k": 8,
+      "silhouette": 0.23993080729984992,
+      "davies_bouldin": 1.2440363007053783,
+      "calinski_harabasz": 2711.825762360608
+    }
+  ],
+  "phase4_finalize": {
+    "algorithm": "kmeans",
+    "k": 3,
+    "features": [
+      "Recency",
+      "Frequency",
+      "Monetary",
+      "AvgBasketValue",
+      "DistinctProducts",
+      "TenureDays",
+      "CancellationRate"
+    ],
+    "scaler": "minmax",
+    "silhouette": 0.40850824057890195,
+    "davies_bouldin": 0.9464884354978281,
+    "calinski_harabasz": 4084.2891514482867,
+    "vs_unconstrained_k2_silhouette": 0.3550090672302381,
+    "vs_baseline_rfm_core_standard_k5_silhouette": 0.2624353938391362
+  }
+}

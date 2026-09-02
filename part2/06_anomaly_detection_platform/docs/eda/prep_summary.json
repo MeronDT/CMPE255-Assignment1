@@ -1,0 +1,8 @@
+{
+  "n_before_dedup": 284807,
+  "n_after_dedup": 275663,
+  "n_duplicates_dropped": 9144,
+  "n_fraud_after_dedup": 473,
+  "fraud_rate_after_dedup_pct": 0.1716,
+  "n_features": 29
+}

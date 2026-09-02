@@ -1,0 +1,25 @@
+{
+  "isolation_forest": {
+    "auprc": 0.6074,
+    "roc_auc": 0.9456,
+    "seconds": 0.55
+  },
+  "local_outlier_factor": {
+    "auprc": 0.0281,
+    "roc_auc": 0.4844,
+    "seconds": 1.8
+  },
+  "one_class_svm": {
+    "auprc": 0.2738,
+    "roc_auc": 0.9226,
+    "seconds": 1.66
+  },
+  "elliptic_envelope": {
+    "auprc": 0.5155,
+    "roc_auc": 0.9128,
+    "seconds": 2.29
+  },
+  "_proxy_n_normal": 20000,
+  "_proxy_n_fraud": 473,
+  "_winner_by_auprc": "isolation_forest"
+}

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+
+# Large raw dataset -- re-downloadable via scripts/02_prepare_data.py's source URL,
+# same pattern as 01_nyc_taxi_trip_prediction/.gitignore
+data/raw/Online Retail.xlsx

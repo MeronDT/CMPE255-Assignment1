@@ -1,0 +1,15 @@
+{
+  "autoresearch_config": {
+    "d_model": 512,
+    "n_layers": 4,
+    "n_heads": 8,
+    "lr": 0.0005985494002869498,
+    "batch_size": 32,
+    "warmup_frac": 0.14
+  },
+  "n_params": 16847360,
+  "train_seconds": 627.4321506023407,
+  "previous_val_loss": 2.008542537689209,
+  "finalized_val_loss": 1.9059404939413072,
+  "redeployed": true
+}

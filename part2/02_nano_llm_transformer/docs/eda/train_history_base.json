@@ -1,0 +1,34 @@
+{
+  "run_tag": "base",
+  "config": {
+    "vocab_size": 8192,
+    "context_length": 384,
+    "d_model": 512,
+    "n_layers": 4,
+    "n_heads": 8,
+    "dropout": 0.0,
+    "rope_theta": 10000.0,
+    "norm_type": "rmsnorm",
+    "mlp_type": "swiglu",
+    "pos_type": "rope",
+    "tie_embeddings": true
+  },
+  "n_params": 16847360,
+  "device": "cuda",
+  "max_iters": 3000,
+  "steps": [
+    {"iter": 0, "train_loss": 9.1178, "val_loss": 9.1178, "val_perplexity": 9115.78, "lr": 0.00000143, "elapsed_sec": 0, "gpu_mem_mb": 0},
+    {"iter": 300, "train_loss": 3.0249, "val_loss": 3.0249, "val_perplexity": 20.59, "lr": 0.00042896, "elapsed_sec": 0, "gpu_mem_mb": 0},
+    {"iter": 600, "train_loss": 2.4269, "val_loss": 2.4269, "val_perplexity": 11.32, "lr": 0.00059211, "elapsed_sec": 0, "gpu_mem_mb": 0},
+    {"iter": 900, "train_loss": 2.1808, "val_loss": 2.1808, "val_perplexity": 8.85, "lr": 0.00055384, "elapsed_sec": 0, "gpu_mem_mb": 0},
+    {"iter": 1200, "train_loss": 2.0631, "val_loss": 2.0631, "val_perplexity": 7.87, "lr": 0.00048592, "elapsed_sec": 0, "gpu_mem_mb": 0},
+    {"iter": 1500, "train_loss": 1.9772, "val_loss": 1.9772, "val_perplexity": 7.22, "lr": 0.00039733, "elapsed_sec": 0, "gpu_mem_mb": 0},
+    {"iter": 1800, "train_loss": 1.9305, "val_loss": 1.9305, "val_perplexity": 6.89, "lr": 0.00029974, "elapsed_sec": 0, "gpu_mem_mb": 0},
+    {"iter": 2100, "train_loss": 1.9002, "val_loss": 1.9002, "val_perplexity": 6.69, "lr": 0.00020605, "elapsed_sec": 0, "gpu_mem_mb": 0},
+    {"iter": 2400, "train_loss": 1.8991, "val_loss": 1.8991, "val_perplexity": 6.68, "lr": 0.0001286, "elapsed_sec": 0, "gpu_mem_mb": 0},
+    {"iter": 2700, "train_loss": 1.9103, "val_loss": 1.9103, "val_perplexity": 6.75, "lr": 0.00007763, "elapsed_sec": 0, "gpu_mem_mb": 0},
+    {"iter": 3000, "train_loss": 1.9059, "val_loss": 1.9059, "val_perplexity": 6.73, "lr": 0.00005985, "elapsed_sec": 0, "gpu_mem_mb": 0}
+  ],
+  "total_train_seconds": 627.43,
+  "note": "This is the AutoResearch-finalized run (scripts/07_finalize_autoresearch.py), which replaced the original 03_train_base.py run after beating it on held-out validation loss (2.0085 -> 1.9059) at full training budget. train_loss duplicates val_loss here since only validation loss was tracked during finalization (for speed); lr values are reconstructed from the known cosine schedule formula (warmup=420, max_iters=3000, lr=5.985e-4) since per-step LR wasn't separately logged. The deployed checkpoint and this history are consistent with each other."
+}

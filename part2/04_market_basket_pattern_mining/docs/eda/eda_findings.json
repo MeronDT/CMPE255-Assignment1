@@ -1,0 +1,120 @@
+{
+  "n_raw_rows": 541909,
+  "n_cancellation_rows": 9288,
+  "n_basket_line_items": 530104,
+  "n_baskets": 19960,
+  "n_distinct_products": 3922,
+  "basket_size_stats": {
+    "count": 19960.0,
+    "mean": 26.032164328657316,
+    "std": 46.982195427990376,
+    "min": 1.0,
+    "25%": 6.0,
+    "50%": 15.0,
+    "75%": 29.0,
+    "max": 1110.0
+  },
+  "pct_baskets_single_item": 8.22,
+  "top_20_products": [
+    {
+      "stock_code": "85123A",
+      "name": "WHITE HANGING HEART T-LIGHT HOLDER",
+      "n_baskets": 2265
+    },
+    {
+      "stock_code": "85099B",
+      "name": "JUMBO BAG RED RETROSPOT",
+      "n_baskets": 2112
+    },
+    {
+      "stock_code": 22423,
+      "name": "REGENCY CAKESTAND 3 TIER",
+      "n_baskets": 2017
+    },
+    {
+      "stock_code": 47566,
+      "name": "PARTY BUNTING",
+      "n_baskets": 1706
+    },
+    {
+      "stock_code": 20725,
+      "name": "LUNCH BAG RED RETROSPOT",
+      "n_baskets": 1595
+    },
+    {
+      "stock_code": 84879,
+      "name": "ASSORTED COLOUR BIRD ORNAMENT",
+      "n_baskets": 1489
+    },
+    {
+      "stock_code": 22197,
+      "name": "SMALL POPCORN HOLDER",
+      "n_baskets": 1426
+    },
+    {
+      "stock_code": 22720,
+      "name": "SET OF 3 CAKE TINS PANTRY DESIGN ",
+      "n_baskets": 1399
+    },
+    {
+      "stock_code": 21212,
+      "name": "PACK OF 72 RETROSPOT CAKE CASES",
+      "n_baskets": 1370
+    },
+    {
+      "stock_code": 20727,
+      "name": "LUNCH BAG  BLACK SKULL.",
+      "n_baskets": 1328
+    },
+    {
+      "stock_code": 22383,
+      "name": "LUNCH BAG SUKI  DESIGN ",
+      "n_baskets": 1326
+    },
+    {
+      "stock_code": 22457,
+      "name": "NATURAL SLATE HEART CHALKBOARD ",
+      "n_baskets": 1263
+    },
+    {
+      "stock_code": 23203,
+      "name": "JUMBO BAG DOILEY PATTERNS",
+      "n_baskets": 1249
+    },
+    {
+      "stock_code": 22386,
+      "name": "JUMBO BAG PINK POLKADOT",
+      "n_baskets": 1238
+    },
+    {
+      "stock_code": 22469,
+      "name": "HEART OF WICKER SMALL",
+      "n_baskets": 1226
+    },
+    {
+      "stock_code": 22086,
+      "name": "PAPER CHAIN KIT 50'S CHRISTMAS ",
+      "n_baskets": 1200
+    },
+    {
+      "stock_code": 21931,
+      "name": "JUMBO STORAGE BAG SUKI",
+      "n_baskets": 1197
+    },
+    {
+      "stock_code": 22411,
+      "name": "JUMBO SHOPPER VINTAGE RED PAISLEY",
+      "n_baskets": 1190
+    },
+    {
+      "stock_code": 22382,
+      "name": "LUNCH BAG SPACEBOY DESIGN ",
+      "n_baskets": 1179
+    },
+    {
+      "stock_code": 20728,
+      "name": "LUNCH BAG CARS BLUE",
+      "n_baskets": 1174
+    }
+  ]
+}

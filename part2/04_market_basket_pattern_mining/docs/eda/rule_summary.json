@@ -1,0 +1,579 @@
+{
+  "n_rules": 27,
+  "avg_lift": 9.31,
+  "max_lift": 14.13,
+  "top_hub_products": [
+    {
+      "stock_code": "22697",
+      "name": "GREEN REGENCY TEACUP AND SAUCER",
+      "n_rules": 8
+    },
+    {
+      "stock_code": "22698",
+      "name": "PINK REGENCY TEACUP AND SAUCER",
+      "n_rules": 7
+    },
+    {
+      "stock_code": "22699",
+      "name": "ROSES REGENCY TEACUP AND SAUCER ",
+      "n_rules": 7
+    },
+    {
+      "stock_code": "85099B",
+      "name": "JUMBO BAG RED RETROSPOT",
+      "n_rules": 7
+    },
+    {
+      "stock_code": "20724",
+      "name": "RED RETROSPOT CHARLOTTE BAG",
+      "n_rules": 3
+    },
+    {
+      "stock_code": "22727",
+      "name": "ALARM CLOCK BAKELIKE RED ",
+      "n_rules": 3
+    },
+    {
+      "stock_code": "23300",
+      "name": "GARDENERS KNEELING PAD CUP OF TEA ",
+      "n_rules": 2
+    },
+    {
+      "stock_code": "23301",
+      "name": "GARDENERS KNEELING PAD KEEP CALM ",
+      "n_rules": 2
+    },
+    {
+      "stock_code": "22726",
+      "name": "ALARM CLOCK BAKELIKE GREEN",
+      "n_rules": 2
+    },
+    {
+      "stock_code": "22630",
+      "name": "DOLLY GIRL LUNCH BOX",
+      "n_rules": 1
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "22698",
+        "name": "PINK REGENCY TEACUP AND SAUCER"
+      },
+      {
+        "id": "22699",
+        "name": "ROSES REGENCY TEACUP AND SAUCER "
+      },
+      {
+        "id": "22697",
+        "name": "GREEN REGENCY TEACUP AND SAUCER"
+      },
+      {
+        "id": "23300",
+        "name": "GARDENERS KNEELING PAD CUP OF TEA "
+      },
+      {
+        "id": "23301",
+        "name": "GARDENERS KNEELING PAD KEEP CALM "
+      },
+      {
+        "id": "22630",
+        "name": "DOLLY GIRL LUNCH BOX"
+      },
+      {
+        "id": "22629",
+        "name": "SPACEBOY LUNCH BOX "
+      },
+      {
+        "id": "22356",
+        "name": "CHARLOTTE BAG PINK POLKADOT"
+      },
+      {
+        "id": "20724",
+        "name": "RED RETROSPOT CHARLOTTE BAG"
+      },
+      {
+        "id": "20723",
+        "name": "STRAWBERRY CHARLOTTE BAG"
+      },
+      {
+        "id": "22727",
+        "name": "ALARM CLOCK BAKELIKE RED "
+      },
+      {
+        "id": "22726",
+        "name": "ALARM CLOCK BAKELIKE GREEN"
+      },
+      {
+        "id": "22910",
+        "name": "PAPER CHAIN KIT VINTAGE CHRISTMAS"
+      },
+      {
+        "id": "22086",
+        "name": "PAPER CHAIN KIT 50'S CHRISTMAS "
+      },
+      {
+        "id": "20719",
+        "name": "WOODLAND CHARLOTTE BAG"
+      },
+      {
+        "id": "22728",
+        "name": "ALARM CLOCK BAKELIKE PINK"
+      },
+      {
+        "id": "DOT",
+        "name": "DOTCOM POSTAGE"
+      },
+      {
+        "id": "85099B",
+        "name": "JUMBO BAG RED RETROSPOT"
+      },
+      {
+        "id": "22386",
+        "name": "JUMBO BAG PINK POLKADOT"
+      },
+      {
+        "id": "21928",
+        "name": "JUMBO BAG SCANDINAVIAN BLUE PAISLEY"
+      },
+      {
+        "id": "85099F",
+        "name": "JUMBO BAG STRAWBERRY"
+      },
+      {
+        "id": "21733",
+        "name": "RED HANGING HEART T-LIGHT HOLDER"
+      },
+      {
+        "id": "85123A",
+        "name": "WHITE HANGING HEART T-LIGHT HOLDER"
+      },
+      {
+        "id": "85099C",
+        "name": "JUMBO  BAG BAROQUE BLACK WHITE"
+      },
+      {
+        "id": "20712",
+        "name": "JUMBO BAG WOODLAND ANIMALS"
+      },
+      {
+        "id": "21931",
+        "name": "JUMBO STORAGE BAG SUKI"
+      }
+    ],
+    "edges": [
+      {
+        "source": "22698",
+        "target": "22699",
+        "lift": 14.13,
+        "confidence": 0.72
+      },
+      {
+        "source": "22698",
+        "target": "22697",
+        "lift": 14.13,
+        "confidence": 0.72
+      },
+      {
+        "source": "22699",
+        "target": "22698",
+        "lift": 14.13,
+        "confidence": 0.71
+      },
+      {
+        "source": "22697",
+        "target": "22698",
+        "lift": 14.13,
+        "confidence": 0.71
+      },
+      {
+        "source": "22699",
+        "target": "22697",
+        "lift": 13.55,
+        "confidence": 0.9
+      },
+      {
+        "source": "22698",
+        "target": "22697",
+        "lift": 13.55,
+        "confidence": 0.9
+      },
+      {
+        "source": "22698",
+        "target": "22697",
+        "lift": 12.53,
+        "confidence": 0.84
+      },
+      {
+        "source": "22697",
+        "target": "22698",
+        "lift": 12.53,
+        "confidence": 0.63
+      },
+      {
+        "source": "22698",
+        "target": "22699",
+        "lift": 12.27,
+        "confidence": 0.86
+      },
+      {
+        "source": "22697",
+        "target": "22699",
+        "lift": 12.27,
+        "confidence": 0.86
+      },
+      {
+        "source": "23300",
+        "target": "23301",
+        "lift": 12.08,
+        "confidence": 0.73
+      },
+      {
+        "source": "23301",
+        "target": "23300",
+        "lift": 12.08,
+        "confidence": 0.6
+      },
+      {
+        "source": "22698",
+        "target": "22699",
+        "lift": 11.35,
+        "confidence": 0.79
+      },
+      {
+        "source": "22697",
+        "target": "22699",
+        "lift": 10.89,
+        "confidence": 0.76
+      },
+      {
+        "source": "22699",
+        "target": "22697",
+        "lift": 10.89,
+        "confidence": 0.73
+      },
+      {
+        "source": "22630",
+        "target": "22629",
+        "lift": 10.66,
+        "confidence": 0.63
+      },
+      {
+        "source": "22356",
+        "target": "20724",
+        "lift": 10.34,
+        "confidence": 0.7
+      },
+      {
+        "source": "20723",
+        "target": "20724",
+        "lift": 9.9,
+        "confidence": 0.67
+      },
+      {
+        "source": "22727",
+        "target": "22726",
+        "lift": 9.54,
+        "confidence": 0.61
+      },
+      {
+        "source": "22726",
+        "target": "22727",
+        "lift": 9.54,
+        "confidence": 0.66
+      },
+      {
+        "source": "22910",
+        "target": "22086",
+        "lift": 9.05,
+        "confidence": 0.68
+      },
+      {
+        "source": "20719",
+        "target": "20724",
+        "lift": 8.91,
+        "confidence": 0.61
+      },
+      {
+        "source": "22728",
+        "target": "22727",
+        "lift": 8.7,
+        "confidence": 0.6
+      },
+      {
+        "source": "DOT",
+        "target": "85099B",
+        "lift": 5.08,
+        "confidence": 0.69
+      },
+      {
+        "source": "22386",
+        "target": "85099B",
+        "lift": 4.98,
+        "confidence": 0.68
+      },
+      {
+        "source": "21928",
+        "target": "85099B",
+        "lift": 4.95,
+        "confidence": 0.68
+      },
+      {
+        "source": "85099F",
+        "target": "85099B",
+        "lift": 4.85,
+        "confidence": 0.66
+      },
+      {
+        "source": "21733",
+        "target": "85123A",
+        "lift": 4.7,
+        "confidence": 0.67
+      },
+      {
+        "source": "85099C",
+        "target": "85099B",
+        "lift": 4.62,
+        "confidence": 0.63
+      },
+      {
+        "source": "20712",
+        "target": "85099B",
+        "lift": 4.55,
+        "confidence": 0.62
+      },
+      {
+        "source": "21931",
+        "target": "85099B",
+        "lift": 4.49,
+        "confidence": 0.61
+      }
+    ]
+  },
+  "top_rules_by_lift": [
+    {
+      "antecedents": [
+        "PINK REGENCY TEACUP AND SAUCER"
+      ],
+      "consequents": [
+        "ROSES REGENCY TEACUP AND SAUCER ",
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.0358,
+      "confidence": 0.717,
+      "lift": 14.13
+    },
+    {
+      "antecedents": [
+        "ROSES REGENCY TEACUP AND SAUCER ",
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "consequents": [
+        "PINK REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.0358,
+      "confidence": 0.705,
+      "lift": 14.13
+    },
+    {
+      "antecedents": [
+        "ROSES REGENCY TEACUP AND SAUCER ",
+        "PINK REGENCY TEACUP AND SAUCER"
+      ],
+      "consequents": [
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.0358,
+      "confidence": 0.905,
+      "lift": 13.55
+    },
+    {
+      "antecedents": [
+        "PINK REGENCY TEACUP AND SAUCER"
+      ],
+      "consequents": [
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.0418,
+      "confidence": 0.837,
+      "lift": 12.53
+    },
+    {
+      "antecedents": [
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "consequents": [
+        "PINK REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.0418,
+      "confidence": 0.626,
+      "lift": 12.53
+    },
+    {
+      "antecedents": [
+        "PINK REGENCY TEACUP AND SAUCER",
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "consequents": [
+        "ROSES REGENCY TEACUP AND SAUCER "
+      ],
+      "support": 0.0358,
+      "confidence": 0.856,
+      "lift": 12.27
+    },
+    {
+      "antecedents": [
+        "GARDENERS KNEELING PAD CUP OF TEA "
+      ],
+      "consequents": [
+        "GARDENERS KNEELING PAD KEEP CALM "
+      ],
+      "support": 0.0361,
+      "confidence": 0.726,
+      "lift": 12.08
+    },
+    {
+      "antecedents": [
+        "GARDENERS KNEELING PAD KEEP CALM "
+      ],
+      "consequents": [
+        "GARDENERS KNEELING PAD CUP OF TEA "
+      ],
+      "support": 0.0361,
+      "confidence": 0.601,
+      "lift": 12.08
+    },
+    {
+      "antecedents": [
+        "PINK REGENCY TEACUP AND SAUCER"
+      ],
+      "consequents": [
+        "ROSES REGENCY TEACUP AND SAUCER "
+      ],
+      "support": 0.0395,
+      "confidence": 0.792,
+      "lift": 11.35
+    },
+    {
+      "antecedents": [
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "consequents": [
+        "ROSES REGENCY TEACUP AND SAUCER "
+      ],
+      "support": 0.0507,
+      "confidence": 0.759,
+      "lift": 10.89
+    },
+    {
+      "antecedents": [
+        "ROSES REGENCY TEACUP AND SAUCER "
+      ],
+      "consequents": [
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.0507,
+      "confidence": 0.727,
+      "lift": 10.89
+    },
+    {
+      "antecedents": [
+        "DOLLY GIRL LUNCH BOX"
+      ],
+      "consequents": [
+        "SPACEBOY LUNCH BOX "
+      ],
+      "support": 0.0356,
+      "confidence": 0.634,
+      "lift": 10.66
+    },
+    {
+      "antecedents": [
+        "CHARLOTTE BAG PINK POLKADOT"
+      ],
+      "consequents": [
+        "RED RETROSPOT CHARLOTTE BAG"
+      ],
+      "support": 0.0345,
+      "confidence": 0.704,
+      "lift": 10.34
+    },
+    {
+      "antecedents": [
+        "STRAWBERRY CHARLOTTE BAG"
+      ],
+      "consequents": [
+        "RED RETROSPOT CHARLOTTE BAG"
+      ],
+      "support": 0.0321,
+      "confidence": 0.674,
+      "lift": 9.9
+    },
+    {
+      "antecedents": [
+        "ALARM CLOCK BAKELIKE RED "
+      ],
+      "consequents": [
+        "ALARM CLOCK BAKELIKE GREEN"
+      ],
+      "support": 0.0423,
+      "confidence": 0.612,
+      "lift": 9.54
+    },
+    {
+      "antecedents": [
+        "ALARM CLOCK BAKELIKE GREEN"
+      ],
+      "consequents": [
+        "ALARM CLOCK BAKELIKE RED "
+      ],
+      "support": 0.0423,
+      "confidence": 0.659,
+      "lift": 9.54
+    },
+    {
+      "antecedents": [
+        "PAPER CHAIN KIT VINTAGE CHRISTMAS"
+      ],
+      "consequents": [
+        "PAPER CHAIN KIT 50'S CHRISTMAS "
+      ],
+      "support": 0.0365,
+      "confidence": 0.679,
+      "lift": 9.05
+    },
+    {
+      "antecedents": [
+        "WOODLAND CHARLOTTE BAG"
+      ],
+      "consequents": [
+        "RED RETROSPOT CHARLOTTE BAG"
+      ],
+      "support": 0.0334,
+      "confidence": 0.607,
+      "lift": 8.91
+    },
+    {
+      "antecedents": [
+        "ALARM CLOCK BAKELIKE PINK"
+      ],
+      "consequents": [
+        "ALARM CLOCK BAKELIKE RED "
+      ],
+      "support": 0.0311,
+      "confidence": 0.601,
+      "lift": 8.7
+    },
+    {
+      "antecedents": [
+        "DOTCOM POSTAGE"
+      ],
+      "consequents": [
+        "JUMBO BAG RED RETROSPOT"
+      ],
+      "support": 0.0321,
+      "confidence": 0.693,
+      "lift": 5.08
+    }
+  ]
+}

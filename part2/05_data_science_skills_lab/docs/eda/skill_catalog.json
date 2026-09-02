@@ -1,0 +1,340 @@
+{
+  "n_total_skills": 46,
+  "n_live_demonstrated": 13,
+  "by_source_repo": {
+    "nimrodfisher/data-analytics-skills": 31,
+    "param087/agent-ml-skills": 15
+  },
+  "by_crispdm_phase": {
+    "Evaluation": 6,
+    "Business Analysis & Communication": 23,
+    "Data Understanding": 4,
+    "Data Preparation": 4,
+    "Modeling": 8,
+    "Deployment": 1
+  },
+  "skills": [
+    {
+      "name": "ab-test-analysis",
+      "description": "Rigorous A/B test statistical analysis. Use when analyzing experiment results, calculating statistical significance, checking for sample ratio mismatch, or validating test design before launch.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Evaluation",
+      "live_demonstrated": true
+    },
+    {
+      "name": "analysis-assumptions-log",
+      "description": "Track and document analytical assumptions and decisions. Use when making analytical choices, documenting trade-offs, ensuring transparency, or creating audit trails for analytical work.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "analysis-documentation",
+      "description": "Structured, reproducible analysis documentation. Use when documenting analysis findings, creating analysis notebooks, ensuring reproducibility, or building analysis archives for future reference.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "analysis-planning",
+      "description": "Structure analysis approach before starting work. Use when receiving new analysis requests, breaking down complex questions into steps, or planning iterative analysis workflows.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "analysis-qa-checklist",
+      "description": "Pre-delivery quality assurance for analysis work. Use when reviewing analysis before sharing with stakeholders, checking for completeness, validating assumptions, or ensuring clarity of recommendations.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Evaluation",
+      "live_demonstrated": false
+    },
+    {
+      "name": "analysis-retrospective",
+      "description": "Post-analysis learning and process improvement. Use when completing major analysis projects, documenting lessons learned, or improving team analytical practices.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "business-metrics-calculator",
+      "description": "Standard business metric calculation with industry benchmarks. Use when calculating SaaS metrics (MRR, churn, LTV, CAC), e-commerce KPIs, or product analytics metrics with proper definitions.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": true
+    },
+    {
+      "name": "cohort-analysis",
+      "description": "Time-based cohort analysis with retention and behaviour tracking. Activate when you need to measure how groups of users/customers behave over time \u2014 retention rates, revenue by cohort, or feature adoption curves.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": true
+    },
+    {
+      "name": "context-packager",
+      "description": "Efficiently package context for AI-assisted analysis. Use when preparing to work with Claude on analysis, organizing context documents, or structuring prompts for complex analytical tasks.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "dashboard-specification",
+      "description": "Design specifications for effective dashboards. Use when planning new dashboards, improving existing ones, or documenting dashboard requirements before development starts.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "data-catalog-entry",
+      "description": "Create standardized metadata for data assets. Use when documenting new datasets, building data catalogs, improving data discoverability, or creating data dictionaries for teams.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Data Understanding",
+      "live_demonstrated": false
+    },
+    {
+      "name": "data-cleaning",
+      "description": "Use when preparing raw data for modeling \u2014 handling missing values, duplicates, inconsistent types, outliers, and bad categorical values. Emphasizes fitting all imputation on train-only to avoid leakage.",
+      "source_repo": "param087/agent-ml-skills",
+      "crispdm_phase": "Data Preparation",
+      "live_demonstrated": true
+    },
+    {
+      "name": "data-narrative-builder",
+      "description": "Build compelling data-driven narratives. Use when presenting analysis results, creating stakeholder reports, or transforming a set of findings into a story that drives a specific decision or action.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "data-quality-audit",
+      "description": "Comprehensive data quality assessment against business rules, schema constraints, and freshness expectations. Activate when validating data pipeline outputs before production use, auditing a dataset against defined business rules, or producing a quality scorecard for a data asset.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Data Preparation",
+      "live_demonstrated": false
+    },
+    {
+      "name": "executive-summary-generator",
+      "description": "Create concise executive summaries from detailed analysis. Use when preparing board decks, executive briefings, or condensing complex analysis into decision-ready formats for senior audiences.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "experiment-tracking",
+      "description": "Use when running ML experiments that need to be compared, reproduced, or shared. Covers MLflow/Weights & Biases logging, what to track, run organization, and model registry basics.",
+      "source_repo": "param087/agent-ml-skills",
+      "crispdm_phase": "Modeling",
+      "live_demonstrated": false
+    },
+    {
+      "name": "exploratory-data-analysis",
+      "description": "Use when starting on a new dataset, before modeling, or when asked to \"explore\", \"profile\", \"understand\", or \"summarize\" data. Covers structured EDA, distributions, correlations, target leakage checks, and visualization.",
+      "source_repo": "param087/agent-ml-skills",
+      "crispdm_phase": "Data Understanding",
+      "live_demonstrated": true
+    },
+    {
+      "name": "feature-engineering",
+      "description": "Use when creating, encoding, scaling, or selecting features for ML models. Covers categorical encoding, numeric transforms, datetime/text/aggregation features, and leakage-safe target encoding.",
+      "source_repo": "param087/agent-ml-skills",
+      "crispdm_phase": "Data Preparation",
+      "live_demonstrated": true
+    },
+    {
+      "name": "funnel-analysis",
+      "description": "Conversion funnel analysis with drop-off investigation. Use when analyzing multi-step processes, identifying conversion bottlenecks, comparing segments through a funnel, or optimizing user journeys.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "hyperparameter-tuning",
+      "description": "Use when optimizing model hyperparameters. Covers search strategy (random vs Bayesian/Optuna), leakage-safe tuning inside CV, search-space design, early stopping, and budget management.",
+      "source_repo": "param087/agent-ml-skills",
+      "crispdm_phase": "Modeling",
+      "live_demonstrated": true
+    },
+    {
+      "name": "imbalanced-data",
+      "description": "Use when the target is rare (fraud, churn, disease, anomalies). Covers correct metrics, resampling (SMOTE/undersampling), class weights, threshold tuning, and avoiding the accuracy trap and resampling leakage.",
+      "source_repo": "param087/agent-ml-skills",
+      "crispdm_phase": "Evaluation",
+      "live_demonstrated": true
+    },
+    {
+      "name": "impact-quantification",
+      "description": "Estimate and communicate business impact of insights. Use when sizing opportunities discovered in analysis, calculating ROI of recommended actions, or prioritizing initiatives by potential impact.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "insight-synthesis",
+      "description": "Transform data findings into compelling insights. Use when converting analysis results into actionable insights, connecting findings to business impact, or preparing insights for stakeholder communication.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "llm-finetuning",
+      "description": "Use when fine-tuning a large language model. Covers choosing full vs LoRA/QLoRA, dataset formatting, the transformers/PEFT/TRL stack, key hyperparameters, and evaluating fine-tunes without overfitting.",
+      "source_repo": "param087/agent-ml-skills",
+      "crispdm_phase": "Modeling",
+      "live_demonstrated": false
+    },
+    {
+      "name": "methodology-explainer",
+      "description": "Explain analysis methodology to diverse audiences. Use when documenting 'how we did this' sections, building trust through transparency, or teaching analytical approaches to stakeholders.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "metric-reconciliation",
+      "description": "Cross-source metric validation and discrepancy investigation. Use when metrics from different sources don't match, investigating data quality issues between systems, or validating data migration accuracy.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "ml-debugging",
+      "description": "Use when a model won't learn, loss is NaN, metrics look too good/bad, or training is unstable. Provides a systematic decision tree for diagnosing data, optimization, and generalization failures.",
+      "source_repo": "param087/agent-ml-skills",
+      "crispdm_phase": "Evaluation",
+      "live_demonstrated": false
+    },
+    {
+      "name": "model-evaluation",
+      "description": "Use when choosing metrics, validating models, or interpreting results. Covers metric selection by problem type, cross-validation strategy, calibration, confusion-matrix analysis, and avoiding misleading scores.",
+      "source_repo": "param087/agent-ml-skills",
+      "crispdm_phase": "Evaluation",
+      "live_demonstrated": true
+    },
+    {
+      "name": "model-serving",
+      "description": "Use when deploying a trained model behind an API. Covers FastAPI inference services, loading artifacts safely, request validation, batching, ONNX/quantization for speed, health checks, and monitoring.",
+      "source_repo": "param087/agent-ml-skills",
+      "crispdm_phase": "Deployment",
+      "live_demonstrated": false
+    },
+    {
+      "name": "pandas-patterns",
+      "description": "Use when writing or reviewing pandas code. Covers idiomatic, vectorized, memory-efficient patterns; avoiding SettingWithCopyWarning, chained indexing, and slow apply loops.",
+      "source_repo": "param087/agent-ml-skills",
+      "crispdm_phase": "Modeling",
+      "live_demonstrated": false
+    },
+    {
+      "name": "peer-review-template",
+      "description": "Structured peer review for analytical work. Use when reviewing teammates' analysis, providing constructive feedback, or establishing analysis quality standards.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Evaluation",
+      "live_demonstrated": false
+    },
+    {
+      "name": "programmatic-eda",
+      "description": "Systematic exploratory data analysis. Activate when a dataset needs profiling \u2014 structure check, nulls, outliers, distributions, correlations \u2014 before deeper analysis begins.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Data Understanding",
+      "live_demonstrated": true
+    },
+    {
+      "name": "pytorch-training-loop",
+      "description": "Use when writing or reviewing a PyTorch training loop. Covers correct train/eval modes, gradient handling, mixed precision, checkpointing, reproducibility, and device management.",
+      "source_repo": "param087/agent-ml-skills",
+      "crispdm_phase": "Modeling",
+      "live_demonstrated": false
+    },
+    {
+      "name": "query-validation",
+      "description": "SQL query review for correctness, performance, and best practices. Activate when a query needs review before production use, shows unexpected results, or runs too slowly.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Data Preparation",
+      "live_demonstrated": false
+    },
+    {
+      "name": "rag-pipeline",
+      "description": "Use when building retrieval-augmented generation. Covers chunking strategy, embedding choice, vector stores, hybrid + reranking retrieval, prompt assembly, and evaluating retrieval and answer quality.",
+      "source_repo": "param087/agent-ml-skills",
+      "crispdm_phase": "Modeling",
+      "live_demonstrated": false
+    },
+    {
+      "name": "reproducible-ml",
+      "description": "Use when an ML result must be reproducible \u2014 fixing seeds, pinning environments, versioning data, and structuring projects so runs can be exactly recreated. Covers determinism gotchas across NumPy, PyTorch, and CUDA.",
+      "source_repo": "param087/agent-ml-skills",
+      "crispdm_phase": "Modeling",
+      "live_demonstrated": false
+    },
+    {
+      "name": "root-cause-investigation",
+      "description": "Systematic investigation of metric changes and anomalies. Use when a metric unexpectedly changes, investigating business metric drops, explaining performance variations, or drilling into aggregated metric drivers.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "schema-mapper",
+      "description": "Database schema understanding and relationship mapping. Use when exploring unfamiliar databases, documenting table relationships, identifying join paths, or generating ERD documentation for existing schemas.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Data Understanding",
+      "live_demonstrated": false
+    },
+    {
+      "name": "segmentation-analysis",
+      "description": "Customer/user segmentation with actionable insights. Use when identifying distinct customer groups, analyzing segment-specific behavior, profiling high-value segments, or testing segmentation hypotheses.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": true
+    },
+    {
+      "name": "semantic-model-builder",
+      "description": "Build structured semantic layer documentation for metrics, dimensions, and entities. Activate when you need to define a business metric, document a data model, or create YAML definitions compatible with dbt Semantic Layer or similar frameworks.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "sklearn-pipelines",
+      "description": "Use when building scikit-learn models that must not leak preprocessing. Covers Pipeline, ColumnTransformer, custom transformers, and combining preprocessing with cross-validation correctly.",
+      "source_repo": "param087/agent-ml-skills",
+      "crispdm_phase": "Modeling",
+      "live_demonstrated": true
+    },
+    {
+      "name": "sql-to-business-logic",
+      "description": "Translate SQL queries into plain language business logic. Use when documenting queries, explaining analysis to non-technical stakeholders, code reviewing for correctness, or building a query catalog.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "stakeholder-requirements-gathering",
+      "description": "Structured requirements elicitation for analysis requests. Use when scoping new analysis projects, clarifying ambiguous business questions, or documenting analysis acceptance criteria with stakeholders.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "technical-to-business-translator",
+      "description": "Translate technical analysis into business language. Use when explaining statistical concepts to non-analysts, simplifying technical findings, or bridging communication between data teams and business stakeholders.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    },
+    {
+      "name": "time-series-analysis",
+      "description": "Temporal pattern detection and forecasting. Use when analyzing trends over time, detecting seasonality, identifying anomalies in time series, or building simple forecasting models for planning.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": true
+    },
+    {
+      "name": "visualization-builder",
+      "description": "Create effective, publication-ready data visualizations. Use when choosing chart types, designing presentation visuals, building dashboard charts, or applying visual design best practices to data output.",
+      "source_repo": "nimrodfisher/data-analytics-skills",
+      "crispdm_phase": "Business Analysis & Communication",
+      "live_demonstrated": false
+    }
+  ]
+}

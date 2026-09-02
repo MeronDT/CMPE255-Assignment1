@@ -1,0 +1,48 @@
+name: Deploy Visual Foundations Curriculum to GitHub Pages
+
+on:
+  # Manual-only for now: GitHub Pages requires a public repo on the free
+  # plan, and this repo is currently private, so an automatic push trigger
+  # just fails on every push. Run this by hand (Actions tab -> this
+  # workflow -> "Run workflow") once the repo is public, or switch this
+  # back to a `push:` trigger at that point.
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: part2/08_visual_foundations_curriculum
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: part2/08_visual_foundations_curriculum/package-lock.json
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: part2/08_visual_foundations_curriculum/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,14 @@
+# Model checkpoints (65MB each — under GitHub's 100MB limit after AutoResearch
+# found a smaller, better architecture — see RESEARCH_REPORT.md §4.4) and the
+# trained tokenizer are committed so the backend works out of the box.
+# Raw/processed training data is NOT committed — large and regenerable via
+# scripts/00_download_data.py -> 02_prepare_data.py. See README Quick Start.
+data/raw/
+data/processed/
+
+node_modules/
+dist/
+*.log
+__pycache__/
+*.pyc
+.venv/

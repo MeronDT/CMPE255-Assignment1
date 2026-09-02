@@ -1,0 +1,32 @@
+{
+  "california_housing": {
+    "task": "regression",
+    "n_rows": 20640,
+    "n_features": 8,
+    "n_train": 16512,
+    "n_test": 4128,
+    "target_stats": {
+      "count": 20640.0,
+      "mean": 2.0685581690891475,
+      "std": 1.1539561587441385,
+      "min": 0.14999,
+      "25%": 1.196,
+      "50%": 1.797,
+      "75%": 2.6472499999999997,
+      "max": 5.00001
+    },
+    "n_missing": 0
+  },
+  "adult_income": {
+    "task": "classification",
+    "n_rows": 48842,
+    "n_features": 14,
+    "n_train": 39073,
+    "n_test": 9769,
+    "class_balance": {
+      "<=50K": 0.7607182343065395,
+      ">50K": 0.23928176569346055
+    },
+    "n_missing": 6465
+  }
+}

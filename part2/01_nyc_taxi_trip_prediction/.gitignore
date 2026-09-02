@@ -1,0 +1,16 @@
+# Large source/intermediate data — regenerate via scripts/ (see README Quick Start).
+# Small serving artifacts the backend needs at runtime (zone lookup, centroids,
+# od_stats, trained models) are intentionally NOT ignored below.
+data/raw/yellow_tripdata_*.parquet
+data/raw/taxi_zones.geojson
+data/raw/taxi_zones.zip
+data/raw/taxi_zones_shp/
+data/processed/train.parquet
+data/processed/test.parquet
+
+node_modules/
+dist/
+*.log
+__pycache__/
+*.pyc
+.venv/

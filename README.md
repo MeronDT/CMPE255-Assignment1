@@ -1,0 +1,28 @@
+# CMPE 255 — Assignment 1
+
+Two parts, kept in separate top-level directories.
+
+- [`part1/`](./part1)
+- [`part2/`](./part2)
+
+## Part 1
+
+An agentic-coding build task (see the assignment doc), with its own README,
+artifacts, and walkthrough video.
+
+## Part 2
+
+Replicates the data science prompt experiments from the course's reference repo
+([`dlmastery/data_science_examples`](https://github.com/dlmastery/data_science_examples))
+using Claude Code as the coding agent — 13 independent projects (CRISP-DM pipelines,
+full-stack apps, and a skills-mastery lab), each with its own design doc, research
+report, and live dashboard.
+
+Full index and run instructions: [`part2/README.md`](./part2/README.md).
+
+## Repo-wide notes
+
+- Every project directory is self-contained (own `README.md`, own run instructions) —
+  navigate into it directly rather than assuming a shared root setup.
+- Ports are assigned per-project so multiple projects can run simultaneously without
+  colliding; see each part's own README for the exact list.

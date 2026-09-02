@@ -1,0 +1,43 @@
+{
+  "base": {
+    "final_train_loss": 1.9059,
+    "final_val_loss": 1.9059,
+    "final_val_perplexity": 6.73,
+    "total_train_seconds": 627.43,
+    "n_params": 16847360,
+    "samples": [
+      {
+        "prompt": "Once upon a time,",
+        "completion": "Once upon a time, there was a girl named Lily. Lily loved to play in her garden with her toys. She had a big tree with many leaves. Lily liked to kick the leaves and watch them roll on the ground. One day, she saw a new swing in the tree. It was very tall and had a pretty pattern.\nLily wanted to ride the new swing. She asked her friend, Tom, to sit on it. \"Can you come to my tree on this swing?\" she asked. Tom said"
+      },
+      {
+        "prompt": "The little cat",
+        "completion": "The little cat had made a loud noise and the little cat was scared. They tried to run and hide, but the noise was too loud. They knew they should not play with the noise, but they could tell it was just a joke.\nThe little cat had an idea. It was not a joke, but it could look like the fight. The joke made the little cat and the little cat were happy, even if it was just playing. They stopped being friends and became good friends. And from that"
+      },
+      {
+        "prompt": "One day, a boy named Tom",
+        "completion": "One day, a boy named Tom found a big peach. It was red and blue. Tom wanted to eat the peach, but it was too big for his sister. So, he tried to hold it in the air.\nTom's sister, Sue, saw him playing and said, \"Tom, you need to take your peach out of your hand!\" Tom did not want to take the peach. He wanted it for himself. But he knew he had to be strong.\nTom went to his sister, Sue. Sue was"
+      }
+    ]
+  },
+  "sft": {
+    "final_train_loss": 2.478966546058655,
+    "final_val_loss": 2.7782842397689818,
+    "final_val_perplexity": 16.091388285212766,
+    "total_train_seconds": 927.4583895206451,
+    "samples": [
+      {
+        "prompt": "What is the capital of France?",
+        "completion": "The capital of France is the capital of France. It is the capital of the European (MSM)."
+      },
+      {
+        "prompt": "Give three tips for staying healthy.",
+        "completion": "1. Implement a healthy basic haunting and exercise for making a healthy and healthy choice.\n2. Reach a balanced and healthy healthy cating with a little bit of nutmeg and healthy fat.\n3. Partionary sleep can help to grow healthy and healthy.\n4. Eating healthy fats like healthy antenegi, eating healthy fats, and sharing with friends."
+      },
+      {
+        "prompt": "Write a short poem about the ocean.",
+        "completion": "The ocean's balance is about a strange and fancedity.\nThe ocean is a deep snow,\nA small hilling peaks,\nA darkness as bright as the earth's light,\nBut I am there to turn my own water.\nThe horizon is filled with a gentle roar,\nA wide hint of beauty and beauty.\n\nAs I grow, a light occur,\nA gloriously peaceful beauty.\n\nThe car is like a never-ending adventure,\nThe ocean's blessed, it's time to change.\nThe"
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "phase1_hillclimb": [
+    {
+      "n_estimators": 100,
+      "contamination": 0.001,
+      "auprc": 0.5953,
+      "roc_auc": 0.948
+    },
+    {
+      "n_estimators": 100,
+      "contamination": 0.0015,
+      "auprc": 0.5953,
+      "roc_auc": 0.948
+    },
+    {
+      "n_estimators": 100,
+      "contamination": 0.0018,
+      "auprc": 0.5953,
+      "roc_auc": 0.948
+    },
+    {
+      "n_estimators": 100,
+      "contamination": 0.002,
+      "auprc": 0.5953,
+      "roc_auc": 0.948
+    },
+    {
+      "n_estimators": 100,
+      "contamination": 0.003,
+      "auprc": 0.5953,
+      "roc_auc": 0.948
+    },
+    {
+      "n_estimators": 100,
+      "contamination": 0.005,
+      "auprc": 0.5953,
+      "roc_auc": 0.948
+    },
+    {
+      "n_estimators": 100,
+      "contamination": 0.01,
+      "auprc": 0.5953,
+      "roc_auc": 0.948
+    },
+    {
+      "n_estimators": 200,
+      "contamination": 0.001,
+      "auprc": 0.6074,
+      "roc_auc": 0.9456
+    },
+    {
+      "n_estimators": 200,
+      "contamination": 0.0015,
+      "auprc": 0.6074,
+      "roc_auc": 0.9456
+    },
+    {
+      "n_estimators": 200,
+      "contamination": 0.0018,
+      "auprc": 0.6074,
+      "roc_auc": 0.9456
+    },
+    {
+      "n_estimators": 200,
+      "contamination": 0.002,
+      "auprc": 0.6074,
+      "roc_auc": 0.9456
+    },
+    {
+      "n_estimators": 200,
+      "contamination": 0.003,
+      "auprc": 0.6074,
+      "roc_auc": 0.9456
+    },
+    {
+      "n_estimators": 200,
+      "contamination": 0.005,
+      "auprc": 0.6074,
+      "roc_auc": 0.9456
+    },
+    {
+      "n_estimators": 200,
+      "contamination": 0.01,
+      "auprc": 0.6074,
+      "roc_auc": 0.9456
+    },
+    {
+      "n_estimators": 400,
+      "contamination": 0.001,
+      "auprc": 0.6156,
+      "roc_auc": 0.9464
+    },
+    {
+      "n_estimators": 400,
+      "contamination": 0.0015,
+      "auprc": 0.6156,
+      "roc_auc": 0.9464
+    },
+    {
+      "n_estimators": 400,
+      "contamination": 0.0018,
+      "auprc": 0.6156,
+      "roc_auc": 0.9464
+    },
+    {
+      "n_estimators": 400,
+      "contamination": 0.002,
+      "auprc": 0.6156,
+      "roc_auc": 0.9464
+    },
+    {
+      "n_estimators": 400,
+      "contamination": 0.003,
+      "auprc": 0.6156,
+      "roc_auc": 0.9464
+    },
+    {
+      "n_estimators": 400,
+      "contamination": 0.005,
+      "auprc": 0.6156,
+      "roc_auc": 0.9464
+    },
+    {
+      "n_estimators": 400,
+      "contamination": 0.01,
+      "auprc": 0.6156,
+      "roc_auc": 0.9464
+    }
+  ],
+  "phase2_finalize": {
+    "n_estimators": 400,
+    "contamination": 0.001,
+    "auprc": 0.1444,
+    "roc_auc": 0.95,
+    "proxy_auprc": 0.6156,
+    "proxy_roc_auc": 0.9464,
+    "proxy_base_rate_pct": 2.31,
+    "full_base_rate_pct": 0.1716,
+    "proxy_auprc_lift_over_random": 26.6,
+    "full_auprc_lift_over_random": 84.2,
+    "held_up_at_full_scale": true,
+    "note": "Raw AUPRC drops from proxy to full scale because the proxy subsample's positive rate is ~13x higher than the true rate -- AUPRC is base-rate dependent, so this is expected, not model degradation. Comparing lift over each evaluation's own random baseline shows the ranking quality actually held up (or improved) at full scale."
+  },
+  "note_on_contamination": "AUPRC/ROC-AUC are computed from IsolationForest's continuous score_samples() output, which does NOT depend on the contamination parameter -- contamination only shifts the internal binary threshold used by predict(), not the score ranking. So this grid's AUPRC is identical across all contamination values within each n_estimators group (visible in the table below) -- an honest artifact of the metric choice, not a bug. contamination DOES matter downstream, for the flagging/operating-point decision in 05_evaluate.py.",
+  "winning_config_proxy": {
+    "n_estimators": 400,
+    "contamination": 0.001
+  }
+}

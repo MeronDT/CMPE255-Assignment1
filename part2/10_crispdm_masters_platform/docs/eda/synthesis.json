@@ -1,0 +1,41 @@
+{
+  "dataset": "UCI/Kaggle Online Retail (541,909 raw transactions, one dataset -> five techniques)",
+  "cross_technique_findings": [
+    {
+      "technique": "Clustering",
+      "headline": "k=3 segments (silhouette 0.4085), business-constrained -- the same k=2-unconstrained-optimum trap from Project 03 was designed around from the start here."
+    },
+    {
+      "technique": "Anomaly Detection",
+      "headline": "Synthetic-outlier validation: mean percentile rank 98.9, all in top 5% (True) -- honestly scoped as a sanity check, not a precision/recall claim, since this data has no natural fraud labels."
+    },
+    {
+      "technique": "Supervised Learning",
+      "headline": "Best model (logistic_regression) reaches ROC-AUC 0.9048 predicting future high-value customers from only their first 90 days -- with the feature/label overlap (41.5% of lifetime spend occurs in that window) stated explicitly, not hidden."
+    },
+    {
+      "technique": "Association Rules",
+      "headline": "31 business-constrained rules, avg lift 13.405x -- same selection discipline validated in Project 04 (search inside a reviewable rule-count band, not maximize raw count)."
+    },
+    {
+      "technique": "LSH Sub-linear Search",
+      "headline": "177.6x faster than brute-force with 97% recall@5 -- calibrated empirically (an initial threshold guess gave 28% recall; recalibrating to match this data's actual similarity distribution fixed it to 97%)."
+    }
+  ],
+  "the_pattern_across_all_five": "Every technique in this capstone hit the same class of pitfall at least once: an unconstrained or default-parameter objective finds a technically-valid but practically-useless or miscalibrated answer (clustering's k=2 trap, association rules' 7,799-rule trap from Project 04, LSH's mismatched threshold here). In every case, the fix was the same: apply an explicit, stated, business- or data-grounded constraint BEFORE optimizing, then verify the result actually holds up -- not discover it by accident and not hide it after the fact. That discipline, applied consistently across five entirely different algorithms, is the actual lesson of this capstone, more than any single technique's result.",
+  "prep_summary": {
+    "n_raw_transactions": 541909,
+    "n_missing_customer_id": 135080,
+    "date_range": [
+      "2010-12-01 08:26:00",
+      "2011-12-09 12:50:00"
+    ],
+    "n_customers_full_history": 4371,
+    "n_customers_eligible_for_supervised": 2235,
+    "supervised_label_threshold_monetary": 2762.45,
+    "supervised_positive_rate": 0.2501,
+    "pct_of_lifetime_spend_in_first_90_days_avg": 41.5,
+    "n_multi_item_baskets": 14215,
+    "n_products_in_basket_matrix": 200
+  }
+}

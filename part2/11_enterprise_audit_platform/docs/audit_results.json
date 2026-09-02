@@ -1,0 +1,269 @@
+{
+  "n_projects_audited": 12,
+  "avg_overall_score": 4.8,
+  "dimension_averages": {
+    "crispdm_completeness": 5.0,
+    "documentation_quality": 5.0,
+    "verification_evidence": 4.9,
+    "honest_reporting": 4.23,
+    "repo_hygiene": 5.0
+  },
+  "highest_scoring": {
+    "name": "NanoLlama \u2014 Autoregressive SFT LLM",
+    "score": 5.0
+  },
+  "lowest_scoring": {
+    "name": "Flow \u2014 Dynamic Todo Workspace",
+    "score": 4.22
+  },
+  "root_readme_check": {
+    "ok": true,
+    "missing": [],
+    "note": "Every project directory should appear as a link in the root README.md's project index -- this exact check would have caught today's real gap (Projects 03-12 missing from the table) if it had existed before."
+  },
+  "flagged_issues": [
+    "None -- every audited project passed all 5 dimensions cleanly."
+  ],
+  "projects": [
+    {
+      "directory": "00_dynamic_todo_workspace",
+      "name": "Flow \u2014 Dynamic Todo Workspace",
+      "type": "fullstack",
+      "scores": {
+        "crispdm_completeness": null,
+        "documentation_quality": 5.0,
+        "verification_evidence": 5.0,
+        "honest_reporting": 1.9,
+        "repo_hygiene": 5.0
+      },
+      "overall_score": 4.22,
+      "findings": [
+        "N/A: not a CRISP-DM data-mining project by design (a full-stack app) -- see its own scope, not penalized here.",
+        "DESIGN_DOC.md=7776B, README.md=3696B, RESEARCH_REPORT.md=0B",
+        "6 verification screenshots found in docs/screenshots/",
+        "3 honest-reporting language markers found across project docs",
+        "No large raw-data files present to check (N/A -> full marks)"
+      ]
+    },
+    {
+      "directory": "01_nyc_taxi_trip_prediction",
+      "name": "NYC Taxi Trip Duration & Fare Prediction",
+      "type": "crispdm",
+      "scores": {
+        "crispdm_completeness": 5.0,
+        "documentation_quality": 5.0,
+        "verification_evidence": 5.0,
+        "honest_reporting": 4.4,
+        "repo_hygiene": 5.0
+      },
+      "overall_score": 4.88,
+      "findings": [
+        "CRISP-DM signals: business_doc=True, scripts=True, backend=True, frontend=True, eda_results=True",
+        "DESIGN_DOC.md=8906B, README.md=5087B, RESEARCH_REPORT.md=9468B",
+        "5 verification screenshots found in docs/screenshots/",
+        "7 honest-reporting language markers found across project docs",
+        "All large raw files correctly gitignored: [{'file': '01_nyc_taxi_trip_prediction\\\\data\\\\raw\\\\yellow_tripdata_2024-01.parquet', 'size_mb': 50.0, 'is_ignored': True}]"
+      ]
+    },
+    {
+      "directory": "02_nano_llm_transformer",
+      "name": "NanoLlama \u2014 Autoregressive SFT LLM",
+      "type": "crispdm",
+      "scores": {
+        "crispdm_completeness": 5.0,
+        "documentation_quality": 5.0,
+        "verification_evidence": 5.0,
+        "honest_reporting": 5.0,
+        "repo_hygiene": 5.0
+      },
+      "overall_score": 5.0,
+      "findings": [
+        "CRISP-DM signals: business_doc=True, scripts=True, backend=True, frontend=True, eda_results=True",
+        "DESIGN_DOC.md=10049B, README.md=6044B, RESEARCH_REPORT.md=20432B",
+        "4 verification screenshots found in docs/screenshots/",
+        "20 honest-reporting language markers found across project docs",
+        "All large raw files correctly gitignored: [{'file': '02_nano_llm_transformer\\\\data\\\\raw\\\\alpaca_data.json', 'size_mb': 22.8, 'is_ignored': True}, {'file': '02_nano_llm_transformer\\\\data\\\\raw\\\\tinystories.txt', 'size_mb': 22.5, 'is_ignored': True}]"
+      ]
+    },
+    {
+      "directory": "03_customer_segmentation_clustering",
+      "name": "Customer Intelligence & Segmentation Clustering",
+      "type": "crispdm",
+      "scores": {
+        "crispdm_completeness": 5.0,
+        "documentation_quality": 5.0,
+        "verification_evidence": 5.0,
+        "honest_reporting": 5.0,
+        "repo_hygiene": 5.0
+      },
+      "overall_score": 5.0,
+      "findings": [
+        "CRISP-DM signals: business_doc=True, scripts=True, backend=True, frontend=True, eda_results=True",
+        "DESIGN_DOC.md=4073B, README.md=1709B, RESEARCH_REPORT.md=6398B",
+        "5 verification screenshots found in docs/screenshots/",
+        "11 honest-reporting language markers found across project docs",
+        "All large raw files correctly gitignored: [{'file': '03_customer_segmentation_clustering\\\\data\\\\raw\\\\Online Retail.xlsx', 'size_mb': 23.7, 'is_ignored': True}]"
+      ]
+    },
+    {
+      "directory": "04_market_basket_pattern_mining",
+      "name": "Market Basket Pattern Mining",
+      "type": "crispdm",
+      "scores": {
+        "crispdm_completeness": 5.0,
+        "documentation_quality": 5.0,
+        "verification_evidence": 5.0,
+        "honest_reporting": 3.8,
+        "repo_hygiene": 5.0
+      },
+      "overall_score": 4.76,
+      "findings": [
+        "CRISP-DM signals: business_doc=True, scripts=True, backend=True, frontend=True, eda_results=True",
+        "DESIGN_DOC.md=3209B, README.md=1348B, RESEARCH_REPORT.md=5605B",
+        "6 verification screenshots found in docs/screenshots/",
+        "6 honest-reporting language markers found across project docs",
+        "All large raw files correctly gitignored: [{'file': '04_market_basket_pattern_mining\\\\data\\\\raw\\\\Online Retail.xlsx', 'size_mb': 23.7, 'is_ignored': True}]"
+      ]
+    },
+    {
+      "directory": "05_data_science_skills_lab",
+      "name": "Data Science Skills Mastery Lab",
+      "type": "crispdm",
+      "scores": {
+        "crispdm_completeness": 5.0,
+        "documentation_quality": 5.0,
+        "verification_evidence": 3.8,
+        "honest_reporting": 5.0,
+        "repo_hygiene": 5.0
+      },
+      "overall_score": 4.76,
+      "findings": [
+        "CRISP-DM signals: business_doc=True, scripts=True, backend=True, frontend=True, eda_results=True",
+        "DESIGN_DOC.md=3257B, README.md=1225B, RESEARCH_REPORT.md=4289B",
+        "3 verification screenshots found in docs/screenshots/",
+        "18 honest-reporting language markers found across project docs",
+        "No large raw-data files present to check (N/A -> full marks)"
+      ]
+    },
+    {
+      "directory": "06_anomaly_detection_platform",
+      "name": "Autonomous Anomaly Detection Platform",
+      "type": "crispdm",
+      "scores": {
+        "crispdm_completeness": 5.0,
+        "documentation_quality": 5.0,
+        "verification_evidence": 5.0,
+        "honest_reporting": 5.0,
+        "repo_hygiene": 5.0
+      },
+      "overall_score": 5.0,
+      "findings": [
+        "CRISP-DM signals: business_doc=True, scripts=True, backend=True, frontend=True, eda_results=True",
+        "DESIGN_DOC.md=4103B, README.md=1340B, RESEARCH_REPORT.md=7590B",
+        "6 verification screenshots found in docs/screenshots/",
+        "13 honest-reporting language markers found across project docs",
+        "All large raw files correctly gitignored: [{'file': '06_anomaly_detection_platform\\\\data\\\\raw\\\\creditcard.csv', 'size_mb': 148.7, 'is_ignored': True}]"
+      ]
+    },
+    {
+      "directory": "07_autogluon_stacking_platform",
+      "name": "AutoGluon Multi-Layer Stacking Platform",
+      "type": "crispdm",
+      "scores": {
+        "crispdm_completeness": 5.0,
+        "documentation_quality": 5.0,
+        "verification_evidence": 5.0,
+        "honest_reporting": 5.0,
+        "repo_hygiene": 5.0
+      },
+      "overall_score": 5.0,
+      "findings": [
+        "CRISP-DM signals: business_doc=True, scripts=True, backend=True, frontend=True, eda_results=True",
+        "DESIGN_DOC.md=3930B, README.md=1335B, RESEARCH_REPORT.md=6018B",
+        "4 verification screenshots found in docs/screenshots/",
+        "13 honest-reporting language markers found across project docs",
+        "No large raw-data files present to check (N/A -> full marks)"
+      ]
+    },
+    {
+      "directory": "08_visual_foundations_curriculum",
+      "name": "Data Science Visual Foundations Curriculum",
+      "type": "curriculum",
+      "scores": {
+        "crispdm_completeness": 5.0,
+        "documentation_quality": 5.0,
+        "verification_evidence": 5.0,
+        "honest_reporting": 2.5,
+        "repo_hygiene": 5.0
+      },
+      "overall_score": 4.5,
+      "findings": [
+        "CRISP-DM signals: business_doc=True, scripts=False, backend=False, frontend=True, eda_results=False",
+        "DESIGN_DOC.md=3584B, README.md=1585B, RESEARCH_REPORT.md=0B",
+        "6 verification screenshots found in docs/screenshots/",
+        "4 honest-reporting language markers found across project docs",
+        "No large raw-data files present to check (N/A -> full marks)"
+      ]
+    },
+    {
+      "directory": "09_flowforge_dag_engine",
+      "name": "FlowForge DAG Engine",
+      "type": "fullstack",
+      "scores": {
+        "crispdm_completeness": null,
+        "documentation_quality": 5.0,
+        "verification_evidence": 5.0,
+        "honest_reporting": 3.1,
+        "repo_hygiene": 5.0
+      },
+      "overall_score": 4.53,
+      "findings": [
+        "N/A: not a CRISP-DM data-mining project by design (a full-stack app) -- see its own scope, not penalized here.",
+        "DESIGN_DOC.md=3900B, README.md=1198B, RESEARCH_REPORT.md=0B",
+        "4 verification screenshots found in docs/screenshots/",
+        "5 honest-reporting language markers found across project docs",
+        "No large raw-data files present to check (N/A -> full marks)"
+      ]
+    },
+    {
+      "directory": "10_crispdm_masters_platform",
+      "name": "CRISP-DM Master's Data Science Platform",
+      "type": "crispdm",
+      "scores": {
+        "crispdm_completeness": 5.0,
+        "documentation_quality": 5.0,
+        "verification_evidence": 5.0,
+        "honest_reporting": 5.0,
+        "repo_hygiene": 5.0
+      },
+      "overall_score": 5.0,
+      "findings": [
+        "CRISP-DM signals: business_doc=True, scripts=True, backend=True, frontend=True, eda_results=True",
+        "DESIGN_DOC.md=3877B, README.md=1843B, RESEARCH_REPORT.md=8812B",
+        "8 verification screenshots found in docs/screenshots/",
+        "16 honest-reporting language markers found across project docs",
+        "All large raw files correctly gitignored: [{'file': '10_crispdm_masters_platform\\\\data\\\\raw\\\\Online Retail.xlsx', 'size_mb': 23.7, 'is_ignored': True}]"
+      ]
+    },
+    {
+      "directory": "12_time_series_forecasting_engine",
+      "name": "Time Series Forecasting Engine",
+      "type": "crispdm",
+      "scores": {
+        "crispdm_completeness": 5.0,
+        "documentation_quality": 5.0,
+        "verification_evidence": 5.0,
+        "honest_reporting": 5.0,
+        "repo_hygiene": 5.0
+      },
+      "overall_score": 5.0,
+      "findings": [
+        "CRISP-DM signals: business_doc=True, scripts=True, backend=True, frontend=True, eda_results=True",
+        "DESIGN_DOC.md=3899B, README.md=1313B, RESEARCH_REPORT.md=6069B",
+        "5 verification screenshots found in docs/screenshots/",
+        "18 honest-reporting language markers found across project docs",
+        "All large raw files correctly gitignored: [{'file': '12_time_series_forecasting_engine\\\\data\\\\raw\\\\Online Retail.xlsx', 'size_mb': 23.7, 'is_ignored': True}]"
+      ]
+    }
+  ]
+}

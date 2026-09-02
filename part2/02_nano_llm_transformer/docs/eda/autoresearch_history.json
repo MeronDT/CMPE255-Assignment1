@@ -1,0 +1,171 @@
+{
+  "generated_at": "2026-09-01T11:19:35.385631",
+  "methodology": "4-phase AutoResearch: architecture tournament -> shape search -> hyperparameter hill-climbing -> model soup",
+  "proxy_budget": {
+    "iters": 250,
+    "batch_size": 24,
+    "context_length": 256
+  },
+  "phase1_architecture_tournament": {
+    "results": [
+      {
+        "variant": "nanollama (rope+rmsnorm+swiglu)",
+        "val_loss": 3.4800475001335145,
+        "val_perplexity": 32.461263953615656,
+        "n_params": 13762560,
+        "seconds": 26.6
+      },
+      {
+        "variant": "learned_pos_embeddings",
+        "val_loss": 3.7156968832015993,
+        "val_perplexity": 41.08721009630296,
+        "n_params": 13762560,
+        "seconds": 23.6
+      },
+      {
+        "variant": "layernorm_instead_of_rmsnorm",
+        "val_loss": 3.523227596282959,
+        "val_perplexity": 33.893647121634,
+        "n_params": 13762560,
+        "seconds": 22.5
+      },
+      {
+        "variant": "gelu_mlp_instead_of_swiglu",
+        "val_loss": 3.364450442790985,
+        "val_perplexity": 28.917601055375176,
+        "n_params": 11403264,
+        "seconds": 23.2
+      }
+    ],
+    "winner": "gelu_mlp_instead_of_swiglu"
+  },
+  "phase2_shape_search": {
+    "results": [
+      {
+        "shape": "d256_L12_h8",
+        "d_model": 256,
+        "n_layers": 12,
+        "n_heads": 8,
+        "val_loss": 3.685576295852661,
+        "val_perplexity": 39.86809164656873,
+        "n_params": 11730944,
+        "seconds": 31.2
+      },
+      {
+        "shape": "d384_L6_h6",
+        "d_model": 384,
+        "n_layers": 6,
+        "n_heads": 6,
+        "val_loss": 3.461855375766754,
+        "val_perplexity": 31.876063759435166,
+        "n_params": 13762560,
+        "seconds": 26.5
+      },
+      {
+        "shape": "d512_L4_h8",
+        "d_model": 512,
+        "n_layers": 4,
+        "n_heads": 8,
+        "val_loss": 3.3315564155578614,
+        "val_perplexity": 27.981859229817132,
+        "n_params": 16842752,
+        "seconds": 27.2
+      },
+      {
+        "shape": "d512_L8_h8",
+        "d_model": 512,
+        "n_layers": 8,
+        "n_heads": 8,
+        "val_loss": 3.394704556465149,
+        "val_perplexity": 29.805846229411017,
+        "n_params": 29491200,
+        "seconds": 48.4
+      }
+    ],
+    "winner": "d512_L4_h8",
+    "winner_dims": {
+      "d_model": 512,
+      "n_layers": 4,
+      "n_heads": 8
+    }
+  },
+  "phase3_hill_climbing": {
+    "seed_params": {
+      "lr_log10": -3.5228787452803374,
+      "batch_size": 24,
+      "warmup_frac": 0.08
+    },
+    "path": [
+      {
+        "iteration": 0,
+        "params": {
+          "lr_log10": -3.5228787452803374,
+          "batch_size": 24,
+          "warmup_frac": 0.08
+        },
+        "val_loss": 3.3516426205635073,
+        "move": "seed"
+      },
+      {
+        "iteration": 1,
+        "params": {
+          "lr_log10": -3.5228787452803374,
+          "batch_size": 32,
+          "warmup_frac": 0.08
+        },
+        "val_loss": 3.199220526218414,
+        "move": "accepted"
+      },
+      {
+        "iteration": 2,
+        "params": {
+          "lr_log10": -3.2229,
+          "batch_size": 32,
+          "warmup_frac": 0.08
+        },
+        "val_loss": 3.1252222657203674,
+        "move": "accepted"
+      },
+      {
+        "iteration": 3,
+        "params": {
+          "lr_log10": -3.2229,
+          "batch_size": 32,
+          "warmup_frac": 0.11
+        },
+        "val_loss": 3.099707543849945,
+        "move": "accepted"
+      },
+      {
+        "iteration": 4,
+        "params": {
+          "lr_log10": -3.2229,
+          "batch_size": 32,
+          "warmup_frac": 0.14
+        },
+        "val_loss": 3.06108763217926,
+        "move": "accepted"
+      }
+    ],
+    "best_params": {
+      "lr_log10": -3.2229,
+      "batch_size": 32,
+      "warmup_frac": 0.14
+    },
+    "best_val_loss": 3.06108763217926
+  },
+  "phase4_model_soup": {
+    "model_a_val_loss": 3.1525343656539917,
+    "model_b_val_loss": 3.4206268906593325,
+    "soup_val_loss": 7.127751970291138,
+    "soup_beats_both": false
+  },
+  "final_recommended_config": {
+    "d_model": 512,
+    "n_layers": 4,
+    "n_heads": 8,
+    "lr": 0.0005985494002869498,
+    "batch_size": 32,
+    "warmup_frac": 0.14
+  }
+}

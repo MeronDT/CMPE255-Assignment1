@@ -1,0 +1,14 @@
+{
+  "min_support": 0.02,
+  "apriori": {
+    "seconds": 0.5475,
+    "n_itemsets": 456
+  },
+  "fpgrowth": {
+    "seconds": 0.5971,
+    "n_itemsets": 456
+  },
+  "n_itemsets_match": true,
+  "n_rules_at_baseline": 467,
+  "deployed_algorithm": "fpgrowth"
+}

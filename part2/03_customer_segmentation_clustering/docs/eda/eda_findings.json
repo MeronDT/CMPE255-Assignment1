@@ -1,0 +1,62 @@
+{
+  "n_transactions": 541909,
+  "n_columns": 8,
+  "columns": [
+    "InvoiceNo",
+    "StockCode",
+    "Description",
+    "Quantity",
+    "InvoiceDate",
+    "UnitPrice",
+    "CustomerID",
+    "Country"
+  ],
+  "date_range": [
+    "2010-12-01 08:26:00",
+    "2011-12-09 12:50:00"
+  ],
+  "n_unique_customers": 4372,
+  "n_unique_products": 4070,
+  "n_countries": 38,
+  "top_countries": {
+    "United Kingdom": 495478,
+    "Germany": 9495,
+    "France": 8557,
+    "EIRE": 8196,
+    "Spain": 2533,
+    "Netherlands": 2371,
+    "Belgium": 2069,
+    "Switzerland": 2002,
+    "Portugal": 1519,
+    "Australia": 1259
+  },
+  "pct_uk": 91.43,
+  "n_missing_customer_id": 135080,
+  "pct_missing_customer_id": 24.93,
+  "n_missing_description": 1454,
+  "n_cancellation_invoices": 9288,
+  "pct_cancellation": 1.71,
+  "n_negative_quantity": 10624,
+  "n_zero_or_negative_price": 2517,
+  "quantity_stats": {
+    "count": 541909.0,
+    "mean": 9.55224954743324,
+    "std": 218.08115785023384,
+    "min": -80995.0,
+    "25%": 1.0,
+    "50%": 3.0,
+    "75%": 10.0,
+    "max": 80995.0
+  },
+  "unit_price_stats": {
+    "count": 541909.0,
+    "mean": 4.611113626088513,
+    "std": 96.75985306117938,
+    "min": -11062.06,
+    "25%": 1.25,
+    "50%": 2.08,
+    "75%": 4.13,
+    "max": 38970.0
+  },
+  "neg_qty_that_are_cancellations_pct": 87.42
+}

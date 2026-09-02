@@ -1,0 +1,32 @@
+{
+  "duration_min": {
+    "autoresearch_params": {
+      "num_leaves": 223,
+      "learning_rate": 0.02,
+      "n_estimators": 350,
+      "min_child_samples": 80
+    },
+    "previous_test_rmse": 5.162828992203886,
+    "full_data_retrain_test_metrics": {
+      "rmse": 5.162856215601069,
+      "mae": 3.2342613609888993,
+      "r2": 0.7877546686353475
+    },
+    "redeployed": false
+  },
+  "fare_amount": {
+    "autoresearch_params": {
+      "num_leaves": 159,
+      "learning_rate": 0.02,
+      "n_estimators": 500,
+      "min_child_samples": 80
+    },
+    "previous_test_rmse": 3.9363277798305845,
+    "full_data_retrain_test_metrics": {
+      "rmse": 3.945973237475496,
+      "mae": 2.4283689222805407,
+      "r2": 0.9290684552864775
+    },
+    "redeployed": false
+  }
+}

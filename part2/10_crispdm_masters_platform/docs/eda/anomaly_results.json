@@ -1,0 +1,174 @@
+{
+  "n_customers": 4371,
+  "n_synthetic_outliers_injected": 15,
+  "synthetic_outlier_mean_percentile_rank": 98.9,
+  "all_synthetic_outliers_in_top_5pct": true,
+  "validation_note": "This dataset has no natural anomaly labels, unlike Project 06's Credit Card Fraud data. This validation confirms the detector correctly ranks deliberately extreme synthetic outliers above real customers -- a sanity check that the model works as intended, NOT a precision/recall evaluation against real fraud (no such ground truth exists in this dataset).",
+  "top_real_anomalies": [
+    {
+      "CustomerID": 14777,
+      "AnomalyScore": 0.7407053003134974,
+      "Recency": 4.0,
+      "Frequency": 2.0,
+      "Monetary": 0.01,
+      "AvgBasketValue": 0.01,
+      "DistinctProducts": 2.0,
+      "TenureDays": 353.0,
+      "CancellationRate": 1.0
+    },
+    {
+      "CustomerID": 17820,
+      "AnomalyScore": 0.734566123649468,
+      "Recency": 191.0,
+      "Frequency": 2.0,
+      "Monetary": 0.01,
+      "AvgBasketValue": 0.01,
+      "DistinctProducts": 5.0,
+      "TenureDays": 167.0,
+      "CancellationRate": 1.0
+    },
+    {
+      "CustomerID": 16995,
+      "AnomalyScore": 0.7337303045241245,
+      "Recency": 372.0,
+      "Frequency": 1.0,
+      "Monetary": 0.01,
+      "AvgBasketValue": 0.01,
+      "DistinctProducts": 1.0,
+      "TenureDays": 0.0,
+      "CancellationRate": 1.0
+    },
+    {
+      "CustomerID": 14679,
+      "AnomalyScore": 0.7337303045241245,
+      "Recency": 372.0,
+      "Frequency": 1.0,
+      "Monetary": 0.01,
+      "AvgBasketValue": 0.01,
+      "DistinctProducts": 1.0,
+      "TenureDays": 0.0,
+      "CancellationRate": 1.0
+    },
+    {
+      "CustomerID": 15823,
+      "AnomalyScore": 0.7335990444350221,
+      "Recency": 337.0,
+      "Frequency": 2.0,
+      "Monetary": 0.01,
+      "AvgBasketValue": 0.01,
+      "DistinctProducts": 17.0,
+      "TenureDays": 34.0,
+      "CancellationRate": 0.9411764705882352
+    },
+    {
+      "CustomerID": 17547,
+      "AnomalyScore": 0.7333994245640223,
+      "Recency": 372.0,
+      "Frequency": 1.0,
+      "Monetary": 0.01,
+      "AvgBasketValue": 0.01,
+      "DistinctProducts": 2.0,
+      "TenureDays": 0.0,
+      "CancellationRate": 1.0
+    },
+    {
+      "CustomerID": 16138,
+      "AnomalyScore": 0.7320773961733616,
+      "Recency": 368.0,
+      "Frequency": 1.0,
+      "Monetary": 0.01,
+      "AvgBasketValue": 0.01,
+      "DistinctProducts": 1.0,
+      "TenureDays": 0.0,
+      "CancellationRate": 1.0
+    },
+    {
+      "CustomerID": 12870,
+      "AnomalyScore": 0.731582250148938,
+      "Recency": 366.0,
+      "Frequency": 1.0,
+      "Monetary": 0.01,
+      "AvgBasketValue": 0.01,
+      "DistinctProducts": 2.0,
+      "TenureDays": 0.0,
+      "CancellationRate": 1.0
+    },
+    {
+      "CustomerID": 16579,
+      "AnomalyScore": 0.731582250148938,
+      "Recency": 365.0,
+      "Frequency": 1.0,
+      "Monetary": 0.01,
+      "AvgBasketValue": 0.01,
+      "DistinctProducts": 1.0,
+      "TenureDays": 0.0,
+      "CancellationRate": 1.0
+    },
+    {
+      "CustomerID": 17307,
+      "AnomalyScore": 0.731582250148938,
+      "Recency": 365.0,
+      "Frequency": 1.0,
+      "Monetary": 0.01,
+      "AvgBasketValue": 0.01,
+      "DistinctProducts": 1.0,
+      "TenureDays": 0.0,
+      "CancellationRate": 1.0
+    },
+    {
+      "CustomerID": 18141,
+      "AnomalyScore": 0.7310874390202325,
+      "Recency": 361.0,
+      "Frequency": 1.0,
+      "Monetary": 0.01,
+      "AvgBasketValue": 0.01,
+      "DistinctProducts": 1.0,
+      "TenureDays": 0.0,
+      "CancellationRate": 1.0
+    },
+    {
+      "CustomerID": 13829,
+      "AnomalyScore": 0.7304282114060453,
+      "Recency": 359.0,
+      "Frequency": 1.0,
+      "Monetary": 0.01,
+      "AvgBasketValue": 0.01,
+      "DistinctProducts": 1.0,
+      "TenureDays": 0.0,
+      "CancellationRate": 1.0
+    },
+    {
+      "CustomerID": 12666,
+      "AnomalyScore": 0.7304282114060453,
+      "Recency": 359.0,
+      "Frequency": 1.0,
+      "Monetary": 0.01,
+      "AvgBasketValue": 0.01,
+      "DistinctProducts": 2.0,
+      "TenureDays": 0.0,
+      "CancellationRate": 1.0
+    },
+    {
+      "CustomerID": 14119,
+      "AnomalyScore": 0.7302634974032902,
+      "Recency": 354.0,
+      "Frequency": 1.0,
+      "Monetary": 0.01,
+      "AvgBasketValue": 0.01,
+      "DistinctProducts": 1.0,
+      "TenureDays": 0.0,
+      "CancellationRate": 1.0
+    },
+    {
+      "CustomerID": 14213,
+      "AnomalyScore": 0.7296710788616119,
+      "Recency": 372.0,
+      "Frequency": 1.0,
+      "Monetary": 0.01,
+      "AvgBasketValue": 0.01,
+      "DistinctProducts": 5.0,
+      "TenureDays": 0.0,
+      "CancellationRate": 1.0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "n_raw_transactions": 541909,
+  "n_missing_customer_id": 135080,
+  "date_range": [
+    "2010-12-01 08:26:00",
+    "2011-12-09 12:50:00"
+  ],
+  "n_customers_full_history": 4371,
+  "n_customers_eligible_for_supervised": 2235,
+  "supervised_label_threshold_monetary": 2762.45,
+  "supervised_positive_rate": 0.2501,
+  "pct_of_lifetime_spend_in_first_90_days_avg": 41.5,
+  "n_multi_item_baskets": 14215,
+  "n_products_in_basket_matrix": 200
+}

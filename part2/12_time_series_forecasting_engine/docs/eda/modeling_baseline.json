@@ -1,0 +1,24 @@
+{
+  "model_comparison": {
+    "seasonal_naive": {
+      "model": "seasonal_naive",
+      "mae": 14535.73,
+      "rmse": 28649.68,
+      "mape_pct": 26.23
+    },
+    "holt_winters": {
+      "model": "holt_winters",
+      "mae": 16583.23,
+      "rmse": 30506.45,
+      "mape_pct": 22.86
+    },
+    "prophet": {
+      "model": "prophet",
+      "mae": 20233.52,
+      "rmse": 35104.68,
+      "mape_pct": 25.78
+    }
+  },
+  "winner": "holt_winters",
+  "test_days": 30
+}

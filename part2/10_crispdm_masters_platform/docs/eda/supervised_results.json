@@ -1,0 +1,54 @@
+{
+  "n_train": 1676,
+  "n_test": 559,
+  "positive_rate": 0.2501,
+  "model_comparison": {
+    "logistic_regression": {
+      "roc_auc": 0.9048,
+      "precision": 0.7857,
+      "recall": 0.6286,
+      "f1": 0.6984
+    },
+    "random_forest": {
+      "roc_auc": 0.9038,
+      "precision": 0.7679,
+      "recall": 0.6143,
+      "f1": 0.6825
+    },
+    "gradient_boosting": {
+      "roc_auc": 0.9004,
+      "precision": 0.7438,
+      "recall": 0.6429,
+      "f1": 0.6897
+    }
+  },
+  "winner": "logistic_regression",
+  "feature_importance": [
+    {
+      "feature": "EarlyAvgBasketValue",
+      "importance": 1.533,
+      "coefficient": 1.533
+    },
+    {
+      "feature": "EarlyMonetary",
+      "importance": 1.4371,
+      "coefficient": 1.4371
+    },
+    {
+      "feature": "EarlyFrequency",
+      "importance": 1.2875,
+      "coefficient": 1.2875
+    },
+    {
+      "feature": "EarlyCancellationRate",
+      "importance": 0.6091,
+      "coefficient": 0.6091
+    },
+    {
+      "feature": "EarlyDistinctProducts",
+      "importance": 0.0312,
+      "coefficient": -0.0312
+    }
+  ],
+  "leakage_note": "Features use only the first-90-day window; label uses full lifetime spend (which includes that window). On average 41.5% of lifetime spend occurs in the first 90 days (see prep summary) -- expected correlation between early and total behavior, not literal future-leakage, but stated explicitly rather than left for a reviewer to wonder about."
+}

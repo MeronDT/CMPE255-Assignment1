@@ -1,0 +1,332 @@
+{
+  "grid": [
+    {
+      "support": 0.02,
+      "confidence": 0.3,
+      "n_rules": 176,
+      "avg_lift": 8.107
+    },
+    {
+      "support": 0.02,
+      "confidence": 0.4,
+      "n_rules": 119,
+      "avg_lift": 9.173
+    },
+    {
+      "support": 0.02,
+      "confidence": 0.5,
+      "n_rules": 64,
+      "avg_lift": 10.705
+    },
+    {
+      "support": 0.02,
+      "confidence": 0.6,
+      "n_rules": 31,
+      "avg_lift": 13.405
+    },
+    {
+      "support": 0.03,
+      "confidence": 0.3,
+      "n_rules": 45,
+      "avg_lift": 8.109
+    },
+    {
+      "support": 0.03,
+      "confidence": 0.4,
+      "n_rules": 41,
+      "avg_lift": 8.362
+    },
+    {
+      "support": 0.03,
+      "confidence": 0.5,
+      "n_rules": 20,
+      "avg_lift": 10.684
+    },
+    {
+      "support": 0.03,
+      "confidence": 0.6,
+      "n_rules": 12,
+      "avg_lift": 12.38
+    },
+    {
+      "support": 0.05,
+      "confidence": 0.3,
+      "n_rules": 0,
+      "avg_lift": 0.0
+    },
+    {
+      "support": 0.05,
+      "confidence": 0.4,
+      "n_rules": 0,
+      "avg_lift": 0.0
+    },
+    {
+      "support": 0.05,
+      "confidence": 0.5,
+      "n_rules": 0,
+      "avg_lift": 0.0
+    },
+    {
+      "support": 0.05,
+      "confidence": 0.6,
+      "n_rules": 0,
+      "avg_lift": 0.0
+    },
+    {
+      "support": 0.08,
+      "confidence": 0.3,
+      "n_rules": 0,
+      "avg_lift": 0.0
+    },
+    {
+      "support": 0.08,
+      "confidence": 0.4,
+      "n_rules": 0,
+      "avg_lift": 0.0
+    },
+    {
+      "support": 0.08,
+      "confidence": 0.5,
+      "n_rules": 0,
+      "avg_lift": 0.0
+    },
+    {
+      "support": 0.08,
+      "confidence": 0.6,
+      "n_rules": 0,
+      "avg_lift": 0.0
+    }
+  ],
+  "winning_support": 0.02,
+  "winning_confidence": 0.6,
+  "n_rules": 31,
+  "avg_lift": 13.405,
+  "top_rules": [
+    {
+      "antecedents": [
+        "WOODEN STAR CHRISTMAS SCANDINAVIAN"
+      ],
+      "consequents": [
+        "WOODEN HEART CHRISTMAS SCANDINAVIAN"
+      ],
+      "support": 0.02244108336264509,
+      "confidence": 0.7453271028037383,
+      "lift": 23.336618428095022
+    },
+    {
+      "antecedents": [
+        "WOODEN HEART CHRISTMAS SCANDINAVIAN"
+      ],
+      "consequents": [
+        "WOODEN STAR CHRISTMAS SCANDINAVIAN"
+      ],
+      "support": 0.02244108336264509,
+      "confidence": 0.7026431718061673,
+      "lift": 23.33661842809502
+    },
+    {
+      "antecedents": [
+        "PINK REGENCY TEACUP AND SAUCER"
+      ],
+      "consequents": [
+        "ROSES REGENCY TEACUP AND SAUCER ",
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.02743580724586704,
+      "confidence": 0.7116788321167883,
+      "lift": 18.69965729859546
+    },
+    {
+      "antecedents": [
+        "ROSES REGENCY TEACUP AND SAUCER ",
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "consequents": [
+        "PINK REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.02743580724586704,
+      "confidence": 0.720887245841035,
+      "lift": 18.69965729859546
+    },
+    {
+      "antecedents": [
+        "PINK REGENCY TEACUP AND SAUCER",
+        "ROSES REGENCY TEACUP AND SAUCER "
+      ],
+      "consequents": [
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.02743580724586704,
+      "confidence": 0.8944954128440367,
+      "lift": 18.48147135694474
+    },
+    {
+      "antecedents": [
+        "PINK REGENCY TEACUP AND SAUCER"
+      ],
+      "consequents": [
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.03236018290538164,
+      "confidence": 0.8394160583941606,
+      "lift": 17.343458241385164
+    },
+    {
+      "antecedents": [
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "consequents": [
+        "PINK REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.03236018290538164,
+      "confidence": 0.6686046511627907,
+      "lift": 17.343458241385164
+    },
+    {
+      "antecedents": [
+        "PINK REGENCY TEACUP AND SAUCER",
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "consequents": [
+        "ROSES REGENCY TEACUP AND SAUCER "
+      ],
+      "support": 0.02743580724586704,
+      "confidence": 0.8478260869565217,
+      "lift": 15.591006243320772
+    },
+    {
+      "antecedents": [
+        "ROSES REGENCY TEACUP AND SAUCER ",
+        "REGENCY CAKESTAND 3 TIER"
+      ],
+      "consequents": [
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.021948645796693634,
+      "confidence": 0.7428571428571429,
+      "lift": 15.3484219269103
+    },
+    {
+      "antecedents": [
+        "GREEN REGENCY TEACUP AND SAUCER",
+        "REGENCY CAKESTAND 3 TIER"
+      ],
+      "consequents": [
+        "ROSES REGENCY TEACUP AND SAUCER "
+      ],
+      "support": 0.021948645796693634,
+      "confidence": 0.8342245989304813,
+      "lift": 15.340883148508139
+    },
+    {
+      "antecedents": [
+        "PINK REGENCY TEACUP AND SAUCER"
+      ],
+      "consequents": [
+        "ROSES REGENCY TEACUP AND SAUCER "
+      ],
+      "support": 0.030671825536405205,
+      "confidence": 0.7956204379562043,
+      "lift": 14.630976100320108
+    },
+    {
+      "antecedents": [
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "consequents": [
+        "ROSES REGENCY TEACUP AND SAUCER "
+      ],
+      "support": 0.038058389025677104,
+      "confidence": 0.7863372093023256,
+      "lift": 14.460263169770451
+    },
+    {
+      "antecedents": [
+        "ROSES REGENCY TEACUP AND SAUCER "
+      ],
+      "consequents": [
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.038058389025677104,
+      "confidence": 0.6998706338939198,
+      "lift": 14.46026316977045
+    },
+    {
+      "antecedents": [
+        "SPACEBOY LUNCH BOX "
+      ],
+      "consequents": [
+        "DOLLY GIRL LUNCH BOX"
+      ],
+      "support": 0.029827646851916988,
+      "confidence": 0.6031294452347084,
+      "lift": 13.940626120343707
+    },
+    {
+      "antecedents": [
+        "DOLLY GIRL LUNCH BOX"
+      ],
+      "consequents": [
+        "SPACEBOY LUNCH BOX "
+      ],
+      "support": 0.029827646851916988,
+      "confidence": 0.689430894308943,
+      "lift": 13.940626120343705
+    },
+    {
+      "antecedents": [
+        "GARDENERS KNEELING PAD CUP OF TEA "
+      ],
+      "consequents": [
+        "GARDENERS KNEELING PAD KEEP CALM "
+      ],
+      "support": 0.03257122757650369,
+      "confidence": 0.7349206349206349,
+      "lift": 13.873700963342397
+    },
+    {
+      "antecedents": [
+        "GARDENERS KNEELING PAD KEEP CALM "
+      ],
+      "consequents": [
+        "GARDENERS KNEELING PAD CUP OF TEA "
+      ],
+      "support": 0.03257122757650369,
+      "confidence": 0.6148738379814077,
+      "lift": 13.873700963342397
+    },
+    {
+      "antecedents": [
+        "JUMBO BAG PEARS"
+      ],
+      "consequents": [
+        "JUMBO BAG APPLES"
+      ],
+      "support": 0.021948645796693634,
+      "confidence": 0.6666666666666666,
+      "lift": 13.27264239028945
+    },
+    {
+      "antecedents": [
+        "CHARLOTTE BAG PINK POLKADOT"
+      ],
+      "consequents": [
+        "RED RETROSPOT CHARLOTTE BAG"
+      ],
+      "support": 0.022652128033767146,
+      "confidence": 0.662551440329218,
+      "lift": 12.779062041085256
+    },
+    {
+      "antecedents": [
+        "BAKING SET SPACEBOY DESIGN"
+      ],
+      "consequents": [
+        "BAKING SET 9 PIECE RETROSPOT "
+      ],
+      "support": 0.02187829757298628,
+      "confidence": 0.7404761904761904,
+      "lift": 12.515896608346072
+    }
+  ]
+}

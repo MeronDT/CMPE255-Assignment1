@@ -1,0 +1,49 @@
+{
+  "n_customers": 4371,
+  "n_clusters": 3,
+  "revenue_concentration_check": "Top segment by avg_monetary holds 81.7% of total revenue from 40.8% of customers -- a Pareto-style concentration consistent with retail RFM literature, not an artifact of the clustering.",
+  "profiles": [
+    {
+      "cluster": 0,
+      "persona": "Loyal High-Value",
+      "n_customers": 1785,
+      "pct_of_customers": 40.8,
+      "total_revenue": 6788222.26,
+      "pct_of_revenue": 81.7,
+      "avg_recency_days": 34.2,
+      "avg_frequency": 9.5,
+      "avg_monetary": 3802.93,
+      "avg_basket_value": 334.36,
+      "avg_tenure_days": 278.0,
+      "avg_cancellation_rate": 0.0291
+    },
+    {
+      "cluster": 2,
+      "persona": "New / Occasional",
+      "n_customers": 1616,
+      "pct_of_customers": 37.0,
+      "total_revenue": 1128639.89,
+      "pct_of_revenue": 13.6,
+      "avg_recency_days": 56.1,
+      "avg_frequency": 2.2,
+      "avg_monetary": 698.42,
+      "avg_basket_value": 338.63,
+      "avg_tenure_days": 41.6,
+      "avg_cancellation_rate": 0.018
+    },
+    {
+      "cluster": 1,
+      "persona": "At-Risk / Dormant",
+      "n_customers": 970,
+      "pct_of_customers": 22.2,
+      "total_revenue": 396433.34,
+      "pct_of_revenue": 4.8,
+      "avg_recency_days": 258.3,
+      "avg_frequency": 1.7,
+      "avg_monetary": 408.69,
+      "avg_basket_value": 256.05,
+      "avg_tenure_days": 20.2,
+      "avg_cancellation_rate": 0.061
+    }
+  ]
+}

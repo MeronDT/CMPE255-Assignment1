@@ -1,0 +1,9 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+
+# AutoGluon model directories are multi-GB (every base learner + bagged folds
+# saved to disk) -- regenerable via scripts/02_train_models.py, never committed.
+models/ag_housing/
+models/ag_adult/

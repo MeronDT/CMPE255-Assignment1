@@ -1,0 +1,7 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+
+# Large raw dataset -- re-downloadable / shared with 03_customer_segmentation_clustering
+data/raw/Online Retail.xlsx

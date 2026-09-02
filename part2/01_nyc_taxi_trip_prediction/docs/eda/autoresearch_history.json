@@ -1,0 +1,469 @@
+{
+  "generated_at": "2026-09-01T10:01:19.595724+00:00",
+  "methodology": "4-phase AutoResearch hill-climbing (nyc-taxi-autoresearch skill blueprint)",
+  "targets": {
+    "duration_min": {
+      "target": "duration_min",
+      "search_sample_size": 300000,
+      "phase1_tournament": {
+        "results": [
+          {
+            "rmse": 7.032420344439562,
+            "mae": 4.654173438975484,
+            "r2": 0.6501262734874107,
+            "backbone": "ridge",
+            "train_seconds": 0.1
+          },
+          {
+            "rmse": 5.963844254157409,
+            "mae": 3.7724414078585347,
+            "r2": 0.7483747183250915,
+            "backbone": "random_forest",
+            "train_seconds": 6.4
+          },
+          {
+            "rmse": 5.493527376041327,
+            "mae": 3.423123090954295,
+            "r2": 0.7864968565652236,
+            "backbone": "lightgbm",
+            "train_seconds": 1.8
+          },
+          {
+            "rmse": 5.62614702880905,
+            "mae": 3.560155286432736,
+            "r2": 0.7760640382398715,
+            "backbone": "xgboost",
+            "train_seconds": 2.7
+          }
+        ],
+        "winning_backbone": "lightgbm"
+      },
+      "phase2_feature_transform": {
+        "results": [
+          {
+            "rmse": 5.493527376041327,
+            "mae": 3.423123090954295,
+            "r2": 0.7864968565652236,
+            "variant": "baseline",
+            "n_features": 12,
+            "train_seconds": 1.7
+          },
+          {
+            "rmse": 5.493527376041327,
+            "mae": 3.423123090954295,
+            "r2": 0.7864968565652236,
+            "variant": "log1p_haversine",
+            "n_features": 12,
+            "train_seconds": 1.7
+          },
+          {
+            "rmse": 5.4861509678231775,
+            "mae": 3.418464388448572,
+            "r2": 0.787069832323225,
+            "variant": "cyclical_hour",
+            "n_features": 14,
+            "train_seconds": 1.9
+          },
+          {
+            "rmse": 5.493897622197139,
+            "mae": 3.42363689820886,
+            "r2": 0.7864680767388882,
+            "variant": "distance_rush_interaction",
+            "n_features": 13,
+            "train_seconds": 1.9
+          }
+        ],
+        "winning_variant": "cyclical_hour"
+      },
+      "phase3_hill_climbing": {
+        "seed_params": {
+          "num_leaves": 127,
+          "learning_rate": 0.05,
+          "n_estimators": 500,
+          "min_child_samples": 80
+        },
+        "path": [
+          {
+            "iteration": 0,
+            "params": {
+              "num_leaves": 127,
+              "learning_rate": 0.05,
+              "n_estimators": 500,
+              "min_child_samples": 80
+            },
+            "rmse": 5.472320531537859,
+            "move": "seed"
+          },
+          {
+            "iteration": 1,
+            "params": {
+              "num_leaves": 127,
+              "learning_rate": 0.02,
+              "n_estimators": 500,
+              "min_child_samples": 80
+            },
+            "rmse": 5.447612436463426,
+            "move": "accepted"
+          },
+          {
+            "iteration": 2,
+            "params": {
+              "num_leaves": 159,
+              "learning_rate": 0.02,
+              "n_estimators": 500,
+              "min_child_samples": 80
+            },
+            "rmse": 5.440642188943404,
+            "move": "accepted"
+          },
+          {
+            "iteration": 3,
+            "params": {
+              "num_leaves": 191,
+              "learning_rate": 0.02,
+              "n_estimators": 500,
+              "min_child_samples": 80
+            },
+            "rmse": 5.438461615399658,
+            "move": "accepted"
+          },
+          {
+            "iteration": 4,
+            "params": {
+              "num_leaves": 223,
+              "learning_rate": 0.02,
+              "n_estimators": 500,
+              "min_child_samples": 80
+            },
+            "rmse": 5.436609490290615,
+            "move": "accepted"
+          },
+          {
+            "iteration": 5,
+            "params": {
+              "num_leaves": 223,
+              "learning_rate": 0.02,
+              "n_estimators": 350,
+              "min_child_samples": 80
+            },
+            "rmse": 5.436249879339395,
+            "move": "accepted"
+          }
+        ],
+        "best_params": {
+          "num_leaves": 223,
+          "learning_rate": 0.02,
+          "n_estimators": 350,
+          "min_child_samples": 80
+        },
+        "best_metrics": {
+          "rmse": 5.436249879339395,
+          "mae": 3.3916089199597836,
+          "r2": 0.7909257683255475
+        }
+      },
+      "phase4_blending": {
+        "results": [
+          {
+            "rmse": 5.472320531537859,
+            "mae": 3.398130446500215,
+            "r2": 0.7881420613256134,
+            "weight_a": 0.0
+          },
+          {
+            "rmse": 5.463428395110335,
+            "mae": 3.3943701901970207,
+            "r2": 0.788830010470823,
+            "weight_a": 0.1
+          },
+          {
+            "rmse": 5.4557009673559325,
+            "mae": 3.391368788131419,
+            "r2": 0.7894269421837623,
+            "weight_a": 0.2
+          },
+          {
+            "rmse": 5.449143203295585,
+            "mae": 3.3890419587626095,
+            "r2": 0.7899328564644313,
+            "weight_a": 0.3
+          },
+          {
+            "rmse": 5.443759329997972,
+            "mae": 3.387340202234991,
+            "r2": 0.7903477533128301,
+            "weight_a": 0.4
+          },
+          {
+            "rmse": 5.43955283308848,
+            "mae": 3.3863883127639096,
+            "r2": 0.7906716327289587,
+            "weight_a": 0.5
+          },
+          {
+            "rmse": 5.436526445542716,
+            "mae": 3.3861378756262326,
+            "r2": 0.790904494712817,
+            "weight_a": 0.6
+          },
+          {
+            "rmse": 5.4346821388479745,
+            "mae": 3.386492947435304,
+            "r2": 0.791046339264405,
+            "weight_a": 0.7
+          },
+          {
+            "rmse": 5.434021116599063,
+            "mae": 3.3874345265973993,
+            "r2": 0.7910971663837227,
+            "weight_a": 0.8
+          },
+          {
+            "rmse": 5.434543810576866,
+            "mae": 3.389097395024068,
+            "r2": 0.7910569760707703,
+            "weight_a": 0.9
+          },
+          {
+            "rmse": 5.436249879339395,
+            "mae": 3.3916089199597836,
+            "r2": 0.7909257683255475,
+            "weight_a": 1.0
+          }
+        ],
+        "best": {
+          "rmse": 5.434021116599063,
+          "mae": 3.3874345265973993,
+          "r2": 0.7910971663837227,
+          "weight_a": 0.8
+        }
+      },
+      "final": {
+        "winner_stage": "blend",
+        "rmse": 5.434021116599063,
+        "r2": 0.7910971663837227
+      },
+      "paper_benchmark": {
+        "source": "Ye et al., \"New York City taxi trip duration prediction using MLP and XGBoost\" (ResearchGate, 2021)",
+        "r2": 0.82,
+        "note": "Best of MLP/XGBoost/BRF ensemble; uses full post-hoc feature set incl. exact pickup/dropoff coordinates."
+      },
+      "feature_transform_added": "cyclical_hour"
+    },
+    "fare_amount": {
+      "target": "fare_amount",
+      "search_sample_size": 300000,
+      "phase1_tournament": {
+        "results": [
+          {
+            "rmse": 5.456925071648743,
+            "mae": 3.376738613162149,
+            "r2": 0.8817240399561692,
+            "backbone": "ridge",
+            "train_seconds": 0.1
+          },
+          {
+            "rmse": 4.4866189968286125,
+            "mae": 2.7829706033806487,
+            "r2": 0.9200462417954545,
+            "backbone": "random_forest",
+            "train_seconds": 7.8
+          },
+          {
+            "rmse": 4.22081154785948,
+            "mae": 2.578736126304339,
+            "r2": 0.929239250410717,
+            "backbone": "lightgbm",
+            "train_seconds": 2.0
+          },
+          {
+            "rmse": 4.328722474223845,
+            "mae": 2.675224898283005,
+            "r2": 0.9255748040718678,
+            "backbone": "xgboost",
+            "train_seconds": 1.6
+          }
+        ],
+        "winning_backbone": "lightgbm"
+      },
+      "phase2_feature_transform": {
+        "results": [
+          {
+            "rmse": 4.22081154785948,
+            "mae": 2.578736126304339,
+            "r2": 0.929239250410717,
+            "variant": "baseline",
+            "n_features": 12,
+            "train_seconds": 1.9
+          },
+          {
+            "rmse": 4.22081154785948,
+            "mae": 2.578736126304339,
+            "r2": 0.929239250410717,
+            "variant": "log1p_haversine",
+            "n_features": 12,
+            "train_seconds": 1.9
+          },
+          {
+            "rmse": 4.222454051197999,
+            "mae": 2.580811615900047,
+            "r2": 0.9291841674579712,
+            "variant": "cyclical_hour",
+            "n_features": 14,
+            "train_seconds": 2.1
+          },
+          {
+            "rmse": 4.214958195113168,
+            "mae": 2.575863632512092,
+            "r2": 0.929435374037141,
+            "variant": "distance_rush_interaction",
+            "n_features": 13,
+            "train_seconds": 2.0
+          }
+        ],
+        "winning_variant": "distance_rush_interaction"
+      },
+      "phase3_hill_climbing": {
+        "seed_params": {
+          "num_leaves": 127,
+          "learning_rate": 0.05,
+          "n_estimators": 500,
+          "min_child_samples": 80
+        },
+        "path": [
+          {
+            "iteration": 0,
+            "params": {
+              "num_leaves": 127,
+              "learning_rate": 0.05,
+              "n_estimators": 500,
+              "min_child_samples": 80
+            },
+            "rmse": 4.215957846757178,
+            "move": "seed"
+          },
+          {
+            "iteration": 1,
+            "params": {
+              "num_leaves": 127,
+              "learning_rate": 0.02,
+              "n_estimators": 500,
+              "min_child_samples": 80
+            },
+            "rmse": 4.203705066993188,
+            "move": "accepted"
+          },
+          {
+            "iteration": 2,
+            "params": {
+              "num_leaves": 159,
+              "learning_rate": 0.02,
+              "n_estimators": 500,
+              "min_child_samples": 80
+            },
+            "rmse": 4.199297913015483,
+            "move": "accepted"
+          }
+        ],
+        "best_params": {
+          "num_leaves": 159,
+          "learning_rate": 0.02,
+          "n_estimators": 500,
+          "min_child_samples": 80
+        },
+        "best_metrics": {
+          "rmse": 4.199297913015483,
+          "mae": 2.5584816615666224,
+          "r2": 0.9299587524530548
+        }
+      },
+      "phase4_blending": {
+        "results": [
+          {
+            "rmse": 4.215957846757178,
+            "mae": 2.5640351585574037,
+            "r2": 0.929401898777841,
+            "weight_a": 0.0
+          },
+          {
+            "rmse": 4.211574153334991,
+            "mae": 2.5617512004086995,
+            "r2": 0.9295486362673979,
+            "weight_a": 0.1
+          },
+          {
+            "rmse": 4.207791266798613,
+            "mae": 2.5598312762077087,
+            "r2": 0.9296751399520581,
+            "weight_a": 0.2
+          },
+          {
+            "rmse": 4.204610808785448,
+            "mae": 2.558312288657954,
+            "r2": 0.9297814098318214,
+            "weight_a": 0.3
+          },
+          {
+            "rmse": 4.202034147203658,
+            "mae": 2.5572180063930943,
+            "r2": 0.929867445906688,
+            "weight_a": 0.4
+          },
+          {
+            "rmse": 4.200062393307646,
+            "mae": 2.556477465342028,
+            "r2": 0.9299332481766578,
+            "weight_a": 0.5
+          },
+          {
+            "rmse": 4.198696399311354,
+            "mae": 2.55607794240064,
+            "r2": 0.9299788166417308,
+            "weight_a": 0.6
+          },
+          {
+            "rmse": 4.197936756551309,
+            "mae": 2.5560315066142585,
+            "r2": 0.930004151301907,
+            "weight_a": 0.7
+          },
+          {
+            "rmse": 4.197783794208598,
+            "mae": 2.556428201114333,
+            "r2": 0.9300092521571864,
+            "weight_a": 0.8
+          },
+          {
+            "rmse": 4.198237578596233,
+            "mae": 2.557219499275451,
+            "r2": 0.929994119207569,
+            "weight_a": 0.9
+          },
+          {
+            "rmse": 4.199297913015483,
+            "mae": 2.5584816615666224,
+            "r2": 0.9299587524530548,
+            "weight_a": 1.0
+          }
+        ],
+        "best": {
+          "rmse": 4.197783794208598,
+          "mae": 2.556428201114333,
+          "r2": 0.9300092521571864,
+          "weight_a": 0.8
+        }
+      },
+      "final": {
+        "winner_stage": "blend",
+        "rmse": 4.197783794208598,
+        "r2": 0.9300092521571864
+      },
+      "paper_benchmark": {
+        "source": "arXiv:2507.20008, \"Robust Taxi Fare Prediction under Noisy Conditions: GAT, TimesNet, XGBoost\" (2025)",
+        "r2": null,
+        "note": "55M-row dataset with full completed-trip features (incl. exact distance); RMSE not directly comparable to our pre-trip-only setup (see RESEARCH_REPORT.md \u00a76)."
+      },
+      "feature_transform_added": "distance_rush_interaction"
+    }
+  }
+}

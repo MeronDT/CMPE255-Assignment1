@@ -1,0 +1,99 @@
+{
+  "tinystories": {
+    "n_stories": 27630,
+    "total_chars": 22493387,
+    "avg_chars_per_story": 798.6935939196526,
+    "avg_words_per_story": 159.63231994209193,
+    "max_words_per_story": 818,
+    "unique_words_sample_5000_stories": 6450,
+    "top_20_words": [
+      [
+        "the",
+        48812
+      ],
+      [
+        "and",
+        36309
+      ],
+      [
+        "a",
+        27890
+      ],
+      [
+        "to",
+        27220
+      ],
+      [
+        "was",
+        19760
+      ],
+      [
+        "they",
+        14990
+      ],
+      [
+        "he",
+        14945
+      ],
+      [
+        "it",
+        12084
+      ],
+      [
+        "she",
+        11324
+      ],
+      [
+        "her",
+        8204
+      ],
+      [
+        "said",
+        7979
+      ],
+      [
+        "day",
+        7876
+      ],
+      [
+        "with",
+        7802
+      ],
+      [
+        "his",
+        7694
+      ],
+      [
+        "in",
+        7347
+      ],
+      [
+        "tim",
+        6860
+      ],
+      [
+        "you",
+        6499
+      ],
+      [
+        "big",
+        6228
+      ],
+      [
+        "but",
+        5463
+      ],
+      [
+        "one",
+        5299
+      ]
+    ]
+  },
+  "alpaca": {
+    "n_examples": 52002,
+    "n_with_input_field": 20679,
+    "avg_instruction_words": 9.977693165647475,
+    "avg_output_words": 43.319083881389176,
+    "max_output_words": 700
+  }
+}

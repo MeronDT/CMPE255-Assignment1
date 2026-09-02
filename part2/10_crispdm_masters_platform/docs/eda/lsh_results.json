@@ -1,0 +1,161 @@
+{
+  "n_customers_indexed": 4338,
+  "num_perm": 128,
+  "lsh_threshold": 0.08,
+  "index_build_seconds": 3.22,
+  "avg_lsh_query_ms": 0.1,
+  "avg_brute_force_query_ms": 17.778,
+  "speedup_factor": 177.6,
+  "avg_recall_at_5": 0.97,
+  "n_queries_tested": 20,
+  "example_queries": [
+    {
+      "query_customer": 12346,
+      "n_products_purchased": 1,
+      "n_lsh_candidates": 27,
+      "lsh_top_k": [
+        {
+          "customer": 15526,
+          "jaccard_similarity": 0.25
+        },
+        {
+          "customer": 15567,
+          "jaccard_similarity": 0.143
+        },
+        {
+          "customer": 17309,
+          "jaccard_similarity": 0.091
+        },
+        {
+          "customer": 17030,
+          "jaccard_similarity": 0.091
+        },
+        {
+          "customer": 16325,
+          "jaccard_similarity": 0.071
+        }
+      ],
+      "brute_force_top_k": [
+        {
+          "customer": 15526,
+          "jaccard_similarity": 0.25
+        },
+        {
+          "customer": 15567,
+          "jaccard_similarity": 0.143
+        },
+        {
+          "customer": 17030,
+          "jaccard_similarity": 0.091
+        },
+        {
+          "customer": 17309,
+          "jaccard_similarity": 0.091
+        },
+        {
+          "customer": 16325,
+          "jaccard_similarity": 0.071
+        }
+      ]
+    },
+    {
+      "query_customer": 12347,
+      "n_products_purchased": 103,
+      "n_lsh_candidates": 978,
+      "lsh_top_k": [
+        {
+          "customer": 17396,
+          "jaccard_similarity": 0.134
+        },
+        {
+          "customer": 13324,
+          "jaccard_similarity": 0.113
+        },
+        {
+          "customer": 12572,
+          "jaccard_similarity": 0.106
+        },
+        {
+          "customer": 13759,
+          "jaccard_similarity": 0.104
+        },
+        {
+          "customer": 15658,
+          "jaccard_similarity": 0.1
+        }
+      ],
+      "brute_force_top_k": [
+        {
+          "customer": 17396,
+          "jaccard_similarity": 0.134
+        },
+        {
+          "customer": 13324,
+          "jaccard_similarity": 0.113
+        },
+        {
+          "customer": 12572,
+          "jaccard_similarity": 0.106
+        },
+        {
+          "customer": 13759,
+          "jaccard_similarity": 0.104
+        },
+        {
+          "customer": 15658,
+          "jaccard_similarity": 0.1
+        }
+      ]
+    },
+    {
+      "query_customer": 12348,
+      "n_products_purchased": 22,
+      "n_lsh_candidates": 613,
+      "lsh_top_k": [
+        {
+          "customer": 15232,
+          "jaccard_similarity": 0.171
+        },
+        {
+          "customer": 13027,
+          "jaccard_similarity": 0.167
+        },
+        {
+          "customer": 17940,
+          "jaccard_similarity": 0.167
+        },
+        {
+          "customer": 12363,
+          "jaccard_similarity": 0.154
+        },
+        {
+          "customer": 18251,
+          "jaccard_similarity": 0.152
+        }
+      ],
+      "brute_force_top_k": [
+        {
+          "customer": 15232,
+          "jaccard_similarity": 0.171
+        },
+        {
+          "customer": 13027,
+          "jaccard_similarity": 0.167
+        },
+        {
+          "customer": 17940,
+          "jaccard_similarity": 0.167
+        },
+        {
+          "customer": 12363,
+          "jaccard_similarity": 0.154
+        },
+        {
+          "customer": 18251,
+          "jaccard_similarity": 0.152
+        }
+      ]
+    }
+  ],
+  "method_note": "LSH trades exactness for speed: recall@5 below 1.0 means LSH sometimes misses a true top-5 neighbor that brute-force would find, in exchange for not scanning every customer per query. Reported honestly, not hidden."
+}

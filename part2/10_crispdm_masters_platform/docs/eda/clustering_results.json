@@ -1,0 +1,59 @@
+{
+  "sweep": [
+    {
+      "k": 3,
+      "silhouette": 0.4085
+    },
+    {
+      "k": 4,
+      "silhouette": 0.3423
+    },
+    {
+      "k": 5,
+      "silhouette": 0.3564
+    },
+    {
+      "k": 6,
+      "silhouette": 0.3063
+    },
+    {
+      "k": 7,
+      "silhouette": 0.269
+    },
+    {
+      "k": 8,
+      "silhouette": 0.2399
+    }
+  ],
+  "winning_k": 3,
+  "winning_silhouette": 0.4085,
+  "profiles": [
+    {
+      "cluster": 0,
+      "n_customers": 1785,
+      "pct_of_customers": 40.8,
+      "avg_recency": 34.2,
+      "avg_frequency": 9.5,
+      "avg_monetary": 3802.93,
+      "pct_of_revenue": 81.7
+    },
+    {
+      "cluster": 2,
+      "n_customers": 1616,
+      "pct_of_customers": 37.0,
+      "avg_recency": 56.1,
+      "avg_frequency": 2.2,
+      "avg_monetary": 698.42,
+      "pct_of_revenue": 13.6
+    },
+    {
+      "cluster": 1,
+      "n_customers": 970,
+      "pct_of_customers": 22.2,
+      "avg_recency": 258.3,
+      "avg_frequency": 1.7,
+      "avg_monetary": 408.69,
+      "pct_of_revenue": 4.8
+    }
+  ]
+}

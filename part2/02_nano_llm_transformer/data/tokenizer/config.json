@@ -1,0 +1,4 @@
+{
+  "vocab_size": 8192,
+  "context_length": 384
+}

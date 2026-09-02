@@ -1,0 +1,32 @@
+{
+  "housing": {
+    "task": "regression",
+    "metric": "RMSE (lower better)",
+    "baseline_rmse": 0.43930057965369196,
+    "autogluon_rmse": 0.4301010948281501,
+    "improvement_pct": 2.09,
+    "n_stacked_models": 12,
+    "selection_check": {
+      "selected_model_by_validation": "WeightedEnsemble_L3",
+      "selected_model_test_score": -0.4301010948281501,
+      "best_on_test_model": "LightGBM_BAG_L1",
+      "best_on_test_score": -0.4281411676523865,
+      "selection_matches_test_best": false
+    }
+  },
+  "adult": {
+    "task": "classification",
+    "metric": "ROC-AUC (higher better)",
+    "baseline_auc": 0.930097904427606,
+    "autogluon_auc": 0.9301833209985818,
+    "improvement_pct": 0.01,
+    "n_stacked_models": 13,
+    "selection_check": {
+      "selected_model_by_validation": "WeightedEnsemble_L3",
+      "selected_model_test_score": 0.9301833209985819,
+      "best_on_test_model": "LightGBMXT_BAG_L2",
+      "best_on_test_score": 0.931138386471765,
+      "selection_matches_test_best": false
+    }
+  }
+}

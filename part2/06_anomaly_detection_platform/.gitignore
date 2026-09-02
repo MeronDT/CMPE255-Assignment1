@@ -1,0 +1,10 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+
+# Large raw dataset -- re-downloadable via sklearn.datasets.fetch_openml("creditcard")
+data/raw/creditcard.csv
+# Large derived artifacts -- regenerable via scripts/02-05
+data/processed/X_features.parquet
+data/processed/full_anomaly_scores.npy

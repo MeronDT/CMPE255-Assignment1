@@ -1,0 +1,14 @@
+{
+  "vocab_size": 8192,
+  "context_length": 384,
+  "pretrain": {
+    "n_train_tokens": 5303013,
+    "n_val_tokens": 108224,
+    "n_stories": 27630
+  },
+  "sft": {
+    "n_train_examples": 51002,
+    "n_val_examples": 1000,
+    "n_available_total": 52002
+  }
+}
