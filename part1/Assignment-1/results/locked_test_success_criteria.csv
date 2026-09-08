@@ -1,0 +1,7 @@
+criterion,passed
+Champion beats WS on all-player RMSE,True
+Champion beats WS on recipient RMSE,True
+Champion beats WS on NDCG@5,True
+Champion mean winner rank <= 3,True
+Champion top-1 accuracy >= 50%,True
+Champion season-total MAE below WS,True

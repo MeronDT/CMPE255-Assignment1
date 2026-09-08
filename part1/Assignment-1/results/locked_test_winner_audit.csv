@@ -1,0 +1,25 @@
+model,season,actual_winner,predicted_top,winner_rank,ndcg_at_5,winner_actual_share,winner_predicted_share
+Zero baseline,2019,Giannis Antetokounmpo,461-player tie,231.0,0.009502741719747817,0.932,0.0
+Zero baseline,2020,Giannis Antetokounmpo,449-player tie,225.0,0.00973588540201846,0.952,0.0
+Zero baseline,2021,Nikola Jokić,468-player tie,234.5,0.009349179057674377,0.961,0.0
+Zero baseline,2022,Nikola Jokić,496-player tie,248.5,0.00874462826783658,0.875,0.0
+Historical mean,2019,Giannis Antetokounmpo,461-player tie,231.0,0.009502741719747817,0.932,0.006883060187504474
+Historical mean,2020,Giannis Antetokounmpo,449-player tie,225.0,0.00973588540201846,0.952,0.006883060187504474
+Historical mean,2021,Nikola Jokić,468-player tie,234.5,0.009349179057674377,0.961,0.006883060187504474
+Historical mean,2022,Nikola Jokić,496-player tie,248.5,0.00874462826783658,0.875,0.006883060187504474
+WS OLS baseline,2019,Giannis Antetokounmpo,James Harden,2.5,0.8349156162450139,0.932,0.026821337495017854
+WS OLS baseline,2020,Giannis Antetokounmpo,James Harden,3.5,0.4893783975427502,0.952,0.02672820518047668
+WS OLS baseline,2021,Nikola Jokić,Nikola Jokić,1.0,0.6465298548594598,0.961,0.026952286584461457
+WS OLS baseline,2022,Nikola Jokić,Nikola Jokić,1.0,0.9071880427367777,0.875,0.026952286584461457
+Weighted Ridge,2019,Giannis Antetokounmpo,James Harden,2.0,0.8499423443729285,0.932,0.5693624331617622
+Weighted Ridge,2020,Giannis Antetokounmpo,Giannis Antetokounmpo,1.0,0.7465145545778162,0.952,0.5418277045426948
+Weighted Ridge,2021,Nikola Jokić,Nikola Jokić,1.0,0.9562774920817322,0.961,0.6219762372699834
+Weighted Ridge,2022,Nikola Jokić,Nikola Jokić,1.0,0.9427641691599551,0.875,0.6761331890300111
+Histogram GB,2019,Giannis Antetokounmpo,Giannis Antetokounmpo,1.0,0.959003663190309,0.932,0.8836723566847837
+Histogram GB,2020,Giannis Antetokounmpo,Giannis Antetokounmpo,1.0,0.928427330964304,0.952,0.9238647137224171
+Histogram GB,2021,Nikola Jokić,Nikola Jokić,1.0,0.8050442288154817,0.961,0.5380422243814388
+Histogram GB,2022,Nikola Jokić,Giannis Antetokounmpo,2.0,0.8811629858249969,0.875,0.5064508762101703
+Extra Trees hurdle,2019,Giannis Antetokounmpo,James Harden,2.0,0.8439363666970454,0.932,0.6465818706597224
+Extra Trees hurdle,2020,Giannis Antetokounmpo,Giannis Antetokounmpo,1.0,0.949730446228193,0.952,0.4919149629244452
+Extra Trees hurdle,2021,Nikola Jokić,Nikola Jokić,1.0,0.9510982245961497,0.961,0.668614446614583
+Extra Trees hurdle,2022,Nikola Jokić,Nikola Jokić,1.0,0.9429830462585437,0.875,0.5359169769965277

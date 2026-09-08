@@ -1,0 +1,36 @@
+{
+  "candidate_audit": {
+    "source": "NBA_Dataset.csv",
+    "rows": 17697,
+    "columns": 55,
+    "season_min": 1982,
+    "season_max": 2022,
+    "season_count": 41,
+    "model_input_contract_passed": true,
+    "full_original_schema_present": true,
+    "target_present": true,
+    "missing_model_inputs": [],
+    "missing_original_columns": [],
+    "extra_columns": [],
+    "duplicate_season_player_team_rows": 2,
+    "duplicate_season_player_team_groups": 1,
+    "duplicate_key_examples": [
+      {
+        "season": 1989,
+        "player": "Charles Jones",
+        "team_id": "WSB",
+        "rows": 2
+      }
+    ],
+    "exact_duplicate_rows": 0,
+    "repeated_player_season_rows": 44,
+    "tot_rows": 1954,
+    "logical_range_violations": {},
+    "required_columns_above_20pct_missing": {},
+    "hard_failures": [],
+    "review_warnings": [
+      "repeated_season_player_team_keys_require_review"
+    ],
+    "candidate_status": "PASS_WITH_REVIEW"
+  }
+}

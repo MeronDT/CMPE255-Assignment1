@@ -1,0 +1,252 @@
+{
+  "candidate_audit": {
+    "source": "NBA_Dataset.csv",
+    "rows": 17697,
+    "columns": 55,
+    "season_min": 1982,
+    "season_max": 2022,
+    "season_count": 41,
+    "model_input_contract_passed": true,
+    "full_original_schema_present": true,
+    "target_present": true,
+    "missing_model_inputs": [],
+    "missing_original_columns": [],
+    "extra_columns": [],
+    "duplicate_season_player_team_rows": 2,
+    "duplicate_season_player_team_groups": 1,
+    "duplicate_key_examples": [
+      {
+        "season": 1989,
+        "player": "Charles Jones",
+        "team_id": "WSB",
+        "rows": 2
+      }
+    ],
+    "exact_duplicate_rows": 0,
+    "repeated_player_season_rows": 44,
+    "tot_rows": 1954,
+    "logical_range_violations": {},
+    "required_columns_above_20pct_missing": {},
+    "hard_failures": [],
+    "review_warnings": [
+      "repeated_season_player_team_keys_require_review"
+    ],
+    "candidate_status": "PASS_WITH_REVIEW"
+  },
+  "reference_source": "NBA_Dataset.csv",
+  "overlap_comparison": {
+    "status": "PASS",
+    "season": 2022,
+    "candidate_rows": 605,
+    "reference_rows": 605,
+    "matched_rows": 605,
+    "common_numeric_columns": 51,
+    "materially_different_columns": [],
+    "differences": {
+      "age": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "ast_pct": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "ast_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "award_share": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "blk_pct": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "blk_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "bpm": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "dbpm": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "drb_pct": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "drb_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "dws": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "efg_pct": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "fg2_pct": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "fg2_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "fg2a_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "fg3_pct": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "fg3_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "fg3a_per_fga_pct": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "fg3a_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "fg_pct": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "fg_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "fga_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "ft_pct": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "ft_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "fta_per_fga_pct": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "fta_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "gs": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "mov": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "mov_adj": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "mp": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "mp_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "obpm": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "orb_pct": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "orb_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "ows": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "per": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "pf_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "pts_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "stl_pct": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "stl_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "tov_pct": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "tov_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "trb_pct": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "trb_per_g": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "ts_pct": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "usg_pct": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "vorp": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "win_loss_pct": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "ws": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      },
+      "ws_per_48": {
+        "mean_absolute_difference": 0.0,
+        "maximum_absolute_difference": 0.0
+      }
+    }
+  }
+}

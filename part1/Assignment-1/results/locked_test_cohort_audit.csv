@@ -1,0 +1,3 @@
+cohort,training_rows,training_vote_recipients,test_rows,test_vote_recipients,test_seasons,test_winners_retained
+Primary: mp >= 100,13973,606,1874,51,4,4
+Sensitivity: mp >= 500,11266,606,1437,51,4,4

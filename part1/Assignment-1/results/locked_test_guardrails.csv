@@ -1,0 +1,10 @@
+guardrail,passed
+Model families and hyperparameters fixed before test,True
+Training ends in 2018,True
+Test begins in 2019,True
+Test ends in 2022,True
+Target excluded before era feature creation,True
+No cluster feature used,True
+Primary and sensitivity thresholds prespecified,True
+No model choice changed after test,True
+No external newer-season data used,True

@@ -1,0 +1,61 @@
+model,season,predicted_rank,player,predicted_share,actual_share
+Histogram GB,2019,1,Giannis Antetokounmpo,0.8836723566847837,0.932
+Histogram GB,2019,2,James Harden,0.7634597516336415,0.768
+Histogram GB,2019,3,Nikola Jokić,0.400550586865064,0.21
+Histogram GB,2019,4,Paul George,0.2948120206893973,0.352
+Histogram GB,2019,5,Kawhi Leonard,0.14188826247741088,0.013
+Histogram GB,2020,1,Giannis Antetokounmpo,0.9238647137224171,0.952
+Histogram GB,2020,2,James Harden,0.5819746589323589,0.363
+Histogram GB,2020,3,LeBron James,0.4900644517619819,0.746
+Histogram GB,2020,4,Damian Lillard,0.26003082281121337,0.023
+Histogram GB,2020,5,Kawhi Leonard,0.18547539564577664,0.166
+Histogram GB,2021,1,Nikola Jokić,0.5380422243814388,0.961
+Histogram GB,2021,2,Stephen Curry,0.27642981774496417,0.449
+Histogram GB,2021,3,Rudy Gobert,0.26237176796519357,0.008
+Histogram GB,2021,4,Giannis Antetokounmpo,0.22917233334182002,0.345
+Histogram GB,2021,5,Damian Lillard,0.2041572653444252,0.038
+Histogram GB,2022,1,Giannis Antetokounmpo,0.6089462473166627,0.595
+Histogram GB,2022,2,Nikola Jokić,0.5064508762101703,0.875
+Histogram GB,2022,3,Joel Embiid,0.4279734116161103,0.706
+Histogram GB,2022,4,Chris Paul,0.24211997831422286,0.002
+Histogram GB,2022,5,Luka Dončić,0.23852284227054502,0.146
+Extra Trees hurdle,2019,1,James Harden,0.6542353486032195,0.768
+Extra Trees hurdle,2019,2,Giannis Antetokounmpo,0.6465818706597224,0.932
+Extra Trees hurdle,2019,3,Nikola Jokić,0.2051006348642677,0.21
+Extra Trees hurdle,2019,4,Kevin Durant,0.14117449990981246,0.025
+Extra Trees hurdle,2019,5,Kawhi Leonard,0.13807885326479075,0.013
+Extra Trees hurdle,2020,1,Giannis Antetokounmpo,0.4919149629244452,0.952
+Extra Trees hurdle,2020,2,James Harden,0.46893761422821967,0.363
+Extra Trees hurdle,2020,3,LeBron James,0.3314854349719289,0.746
+Extra Trees hurdle,2020,4,Anthony Davis,0.28437742296006935,0.081
+Extra Trees hurdle,2020,5,Luka Dončić,0.21608236618416307,0.198
+Extra Trees hurdle,2021,1,Nikola Jokić,0.668614446614583,0.961
+Extra Trees hurdle,2021,2,Giannis Antetokounmpo,0.29977437924163514,0.345
+Extra Trees hurdle,2021,3,Stephen Curry,0.20865099854572527,0.449
+Extra Trees hurdle,2021,4,Joel Embiid,0.1655648760061553,0.58
+Extra Trees hurdle,2021,5,Damian Lillard,0.16398661897997838,0.038
+Extra Trees hurdle,2022,1,Nikola Jokić,0.5359169769965277,0.875
+Extra Trees hurdle,2022,2,Giannis Antetokounmpo,0.3531385973011363,0.595
+Extra Trees hurdle,2022,3,Joel Embiid,0.32355551106770825,0.706
+Extra Trees hurdle,2022,4,Luka Dončić,0.18965634321732944,0.146
+Extra Trees hurdle,2022,5,Kevin Durant,0.1518702577110389,0.001
+Weighted Ridge,2019,1,James Harden,0.6187028196733857,0.768
+Weighted Ridge,2019,2,Giannis Antetokounmpo,0.5693624331617622,0.932
+Weighted Ridge,2019,3,Nikola Jokić,0.3903245963238137,0.21
+Weighted Ridge,2019,4,Anthony Davis,0.3710551284636906,0.0
+Weighted Ridge,2019,5,Damian Lillard,0.30813924441972906,0.068
+Weighted Ridge,2020,1,Giannis Antetokounmpo,0.5418277045426948,0.952
+Weighted Ridge,2020,2,James Harden,0.5120760326262039,0.363
+Weighted Ridge,2020,3,Damian Lillard,0.35803171416174,0.023
+Weighted Ridge,2020,4,Luka Dončić,0.35538472448739883,0.198
+Weighted Ridge,2020,5,Anthony Davis,0.35144597099543934,0.081
+Weighted Ridge,2021,1,Nikola Jokić,0.6219762372699834,0.961
+Weighted Ridge,2021,2,Giannis Antetokounmpo,0.4031561276044629,0.345
+Weighted Ridge,2021,3,Joel Embiid,0.33955401397298146,0.58
+Weighted Ridge,2021,4,Stephen Curry,0.3168174373420483,0.449
+Weighted Ridge,2021,5,Damian Lillard,0.29313254609190487,0.038
+Weighted Ridge,2022,1,Nikola Jokić,0.6761331890300111,0.875
+Weighted Ridge,2022,2,Giannis Antetokounmpo,0.5658020588113277,0.595
+Weighted Ridge,2022,3,Joel Embiid,0.4812462794540609,0.706
+Weighted Ridge,2022,4,Luka Dončić,0.29182819543946986,0.146
+Weighted Ridge,2022,5,Trae Young,0.27762817610639745,0.0

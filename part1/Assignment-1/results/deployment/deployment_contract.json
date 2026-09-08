@@ -1,0 +1,11 @@
+{
+  "locked_evidence_window": "2019-2022; never recomputed for model selection",
+  "production_training_window": "1982-2022",
+  "champion": "Weighted Histogram Gradient Boosting",
+  "required_challenger": "Extra Trees hurdle",
+  "candidate_rule": "mp >= 100; repeat audit at mp >= 500",
+  "prediction_bounds": "[0, 1]",
+  "scoring_unit": "complete player-season table for exactly one season",
+  "automatic_retraining": false,
+  "retraining_rule": "schema failure or two consecutive completed seasons with material degradation"
+}

@@ -1,0 +1,8 @@
+monitor,observed,policy,status
+Schema columns present,1.0,must equal 1,PASS
+Candidate-count deviation,0.08771929824561403,review >= 25%,PASS
+High-PSI feature count,0.0,1 review; >=2 investigate,PASS
+Team-context median shift,1.3214285714285714,review >= 1.5 recent IQR,PASS
+Champion/challenger top-1 agreement,1.0,review if 0,PASS
+Top-5 overlap,4.0,review < 3,PASS
+HGB clipping percentage,0.782258064516129,known risk; disclose,REVIEW
