@@ -235,7 +235,7 @@ The next scientifically useful extension is genuinely new-season validation. Sea
 
 The repository includes the complete incremental Python analysis, a guided notebook, the final evaluation and deployment scripts, saved result tables, selected figures, a verified model artifact, a research-style PDF/DOCX report, a model card, and data-download instructions.
 
-Repository: `https://github.com/MeronDT/CMPE255-Assignment1`
+Repository: [GitHub Repo](https://github.com/MeronDT/CMPE255-Assignment1)
 
 To reproduce the main outputs after downloading the Kaggle data:
 
