@@ -254,4 +254,4 @@ For this dataset, weighted Histogram Gradient Boosting is the best overall champ
 
 ---
 
-*AI-use disclosure: ChatGPT was used as a collaborative assistant for CRISP-DM planning, Python analysis, interpretation, and drafting. The author is responsible for validating the code and outputs, editing the final article into their own voice, and complying with course and publication policies.*
+*AI-use disclosure: ChatGPT was used as a collaborative assistant for CRISP-DM planning, Python analysis, interpretation, and writing.*
