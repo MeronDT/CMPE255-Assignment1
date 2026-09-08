@@ -167,12 +167,15 @@ This broader scorecard prevented one attractive number from hiding a serious wea
 
 ## Locked 2019–2022 results
 
-| Model | All-player RMSE ↓ | Recipient RMSE ↓ | R² ↑ | NDCG@5 ↑ | Winner rank ↓ | Top-1 ↑ |
-|---|---:|---:|---:|---:|---:|---:|
-| **Histogram GB** | **0.0263** | **0.1553** | **0.8033** | 0.8934 | **1.25** | **75%** |
-| Extra Trees hurdle | 0.0284 | 0.1688 | 0.7704 | **0.9219** | **1.25** | **75%** |
-| Weighted Ridge | 0.0478 | 0.2108 | 0.3474 | 0.8739 | **1.25** | **75%** |
-| Win Shares OLS | 0.0583 | 0.3460 | 0.0290 | 0.7195 | 2.00 | 50% |
+**Histogram GB (champion)** — all-player RMSE **0.0263**, recipient RMSE **0.1553**, R² **0.8033**, NDCG@5 0.8934, winner rank **1.25**, top-1 **75%**
+
+**Extra Trees hurdle (challenger)** — all-player RMSE 0.0284, recipient RMSE 0.1688, R² 0.7704, NDCG@5 **0.9219**, winner rank **1.25**, top-1 **75%**
+
+**Weighted Ridge** — all-player RMSE 0.0478, recipient RMSE 0.2108, R² 0.3474, NDCG@5 0.8739, winner rank **1.25**, top-1 **75%**
+
+**Win Shares OLS (baseline)** — all-player RMSE 0.0583, recipient RMSE 0.3460, R² 0.0290, NDCG@5 0.7195, winner rank 2.00, top-1 50%
+
+(↓ lower is better for RMSE and winner rank; ↑ higher is better for R², NDCG@5, and top-1 accuracy.)
 
 The champion beat the Win Shares baseline on every prespecified criterion. It correctly placed Giannis Antetokounmpo first in 2019 and 2020, Nikola Jokić first in 2021, and Jokić second in 2022 behind Giannis.
 
@@ -232,7 +235,7 @@ The next scientifically useful extension is genuinely new-season validation. Sea
 
 The repository includes the complete incremental Python analysis, a guided notebook, the final evaluation and deployment scripts, saved result tables, selected figures, a verified model artifact, a research-style PDF/DOCX report, a model card, and data-download instructions.
 
-Repository: `<ADD-GITHUB-URL>`
+Repository: `https://github.com/MeronDT/CMPE255-Assignment1`
 
 To reproduce the main outputs after downloading the Kaggle data:
 
