@@ -7,8 +7,12 @@ Two parts, kept in separate top-level directories.
 
 ## Part 1
 
-An agentic-coding build task (see the assignment doc), with its own README,
-artifacts, and walkthrough video.
+Predicts NBA MVP vote share and ranks candidates from historical player-season
+statistics (1982–2022), following the CRISP-DM methodology end to end — data
+understanding, preparation, modeling, chronological evaluation, and deployment
+readiness.
+
+Full details: [`part1/README.md`](./part1/README.md).
 
 ## Part 2
 
