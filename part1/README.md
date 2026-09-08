@@ -190,7 +190,7 @@ See [MODEL_CARD.md](MODEL_CARD.md) for intended use, risks, monitoring, and retr
 
 ## AI-use disclosure
 
-ChatGPT was used as a collaborative data-science assistant to plan the CRISP-DM workflow, inspect data-quality choices, write and execute Python analyses, interpret results, and draft documentation. The author is responsible for reviewing the code, validating the outputs, editing the prose into their own voice, and complying with course policies. The complete chat transcript will be exported separately for transparency.
+ChatGPT was used as a collaborative data-science assistant to plan the CRISP-DM workflow, inspect data-quality choices, write and execute Python analyses, interpret results, and draft documentation.
 
 ## Citation
 
