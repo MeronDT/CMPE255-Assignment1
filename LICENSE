@@ -1,0 +1,42 @@
+MIT License
+
+Copyright (c) 2026 Meron Tesfandrias
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Third-party content (not covered by the license above)
+
+This repository vendors some third-party content used for coursework purposes,
+which is not original work and is not covered by the MIT license above:
+
+- `part2/05_data_science_skills_lab/.claude/skills/` includes files copied from
+  [`param087/agent-ml-skills`](https://github.com/param087/agent-ml-skills)
+  (MIT License) and
+  [`nimrodfisher/data-analytics-skills`](https://github.com/nimrodfisher/data-analytics-skills)
+  (**no LICENSE file published by its author** — retained here for coursework
+  documentation purposes only; do not assume it is freely reusable). See
+  `part2/05_data_science_skills_lab/docs/00_skill_vetting.md` for the full
+  vetting notes.
+- `part2/09_flowforge_dag_engine/.claude/` includes files copied from
+  [`mattpocock/skills`](https://github.com/mattpocock/skills) (MIT License).
+  See `part2/09_flowforge_dag_engine/docs/00_skill_vetting.md`.
+- `part1/` does not redistribute its Kaggle dataset; see
+  `part1/DATA_SOURCE.md` for sourcing and license terms on Kaggle's side.
