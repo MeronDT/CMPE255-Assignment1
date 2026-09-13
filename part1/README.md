@@ -184,7 +184,7 @@ See [MODEL_CARD.md](MODEL_CARD.md) for intended use, risks, monitoring, and retr
 - [Research-style final report (PDF)](reports/NBA_MVP_CRISP_DM_Final_Report.pdf)
 - [Research-style final report (DOCX)](reports/NBA_MVP_CRISP_DM_Final_Report.docx)
 - [Medium article draft](reports/medium_article.md)
-- Medium publication (currently unlisted): [Can Player Statistics Predict the NBA MVP Vote?](https://medium.com/@meron.tesfandrias/can-player-statistics-predict-the-nba-mvp-vote-423734ea3c77)
+- Medium publication: [Can Player Statistics Predict the NBA MVP Vote?](https://medium.com/@meron.tesfandrias/can-player-statistics-predict-the-nba-mvp-vote-423734ea3c77)
 - YouTube walkthrough: `<ADD-YOUTUBE-URL-AFTER-RECORDING>`
 - Chat transcript: submit/export separately according to the assignment instructions
 
