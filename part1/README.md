@@ -6,6 +6,15 @@ This repository applies the CRISP-DM methodology to a historical NBA player-seas
 
 The answer is cautiously affirmative. On a locked 2019–2022 test period, the selected weighted Histogram Gradient Boosting model achieved an all-player RMSE of **0.0263**, vote-recipient RMSE of **0.1553**, mean **NDCG@5 of 0.8934**, mean winner rank of **1.25**, and top-1 accuracy of **75%**. These results are substantially better than the Win Shares baseline, but the four-season test is too small to support broad claims about every future NBA era.
 
+## Reports and publication links
+
+- [Research-style final report (PDF)](reports/NBA_MVP_CRISP_DM_Final_Report.pdf)
+- [Research-style final report (DOCX)](reports/NBA_MVP_CRISP_DM_Final_Report.docx)
+- [Medium article draft](reports/medium_article.md)
+- Medium publication: [Can Player Statistics Predict the NBA MVP Vote?](https://medium.com/@meron.tesfandrias/can-player-statistics-predict-the-nba-mvp-vote-423734ea3c77)
+- YouTube walkthrough: [CMPE255 HW1 Part 1](https://www.youtube.com/watch?v=gVgGvmSpkgY)
+- Chat transcript: submit/export separately according to the assignment instructions
+
 ## Headline results
 
 | Model | All-player RMSE ↓ | Recipient RMSE ↓ | R² ↑ | NDCG@5 ↑ | Winner rank ↓ | Top-1 ↑ |
@@ -178,15 +187,6 @@ The scripts honor these optional environment variables: `NBA_MVP_DATA_PATH`, `NB
 The locked test contains only four seasons and two unique winners. Histogram GB clips many small negative raw predictions to zero and underpredicts the winners by 0.217 share points on average. The data end in 2022, and post-2023 NBA eligibility rules require explicit handling before operational ranking. The model should support analysis, not be presented as an objective definition of “most valuable,” and its predictions are not causal estimates.
 
 See [MODEL_CARD.md](MODEL_CARD.md) for intended use, risks, monitoring, and retraining rules.
-
-## Reports and publication links
-
-- [Research-style final report (PDF)](reports/NBA_MVP_CRISP_DM_Final_Report.pdf)
-- [Research-style final report (DOCX)](reports/NBA_MVP_CRISP_DM_Final_Report.docx)
-- [Medium article draft](reports/medium_article.md)
-- Medium publication: [Can Player Statistics Predict the NBA MVP Vote?](https://medium.com/@meron.tesfandrias/can-player-statistics-predict-the-nba-mvp-vote-423734ea3c77)
-- YouTube walkthrough: `<ADD-YOUTUBE-URL-AFTER-RECORDING>`
-- Chat transcript: submit/export separately according to the assignment instructions
 
 ## AI-use disclosure
 
