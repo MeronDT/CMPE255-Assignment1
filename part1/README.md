@@ -13,7 +13,7 @@ The answer is cautiously affirmative. On a locked 2019–2022 test period, the s
 - [Medium article draft](reports/medium_article.md)
 - Medium publication: [Can Player Statistics Predict the NBA MVP Vote?](https://medium.com/@meron.tesfandrias/can-player-statistics-predict-the-nba-mvp-vote-423734ea3c77)
 - YouTube walkthrough: [CMPE255 HW1 Part 1](https://www.youtube.com/watch?v=gVgGvmSpkgY)
-- Chat transcript: submit/export separately according to the assignment instructions
+- Chat transcript: [ChatGPT Conversation Transcript](https://github.com/MeronDT/CMPE255-Assignment1/blob/main/part1/reports/ChatGPT_Transcript.pdf)
 
 ## Headline results
 
