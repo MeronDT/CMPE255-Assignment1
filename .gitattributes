@@ -1,0 +1,5 @@
+# LightGBM's text model export format is line-based but not meant for line-ending
+# normalization - Git converting LF to CRLF on Windows checkout corrupts it (breaks
+# LightGBM's parser: "Model format error, expect a tree here"). Force these to be
+# treated as opaque/binary so Git never touches their line endings.
+part2/01_nyc_taxi_trip_prediction/models/*.txt -text
