@@ -2,6 +2,11 @@
 
 A collection of full-stack applications built by replicating assignment prompts through an AI coding agent (Claude Code), to observe and compare how agentic tools translate a prompt into a working system.
 
+## 📎 Links
+
+- Implementation plans: [`IMPLEMENTATION_PLANS.md`](./IMPLEMENTATION_PLANS.md) — per-project architecture, data model, key technical decisions, and verification/acceptance criteria, linking out to each project's own `DESIGN_DOC.md`.
+- YouTube walkthrough: `<ADD-YOUTUBE-URL-AFTER-RECORDING>`
+
 ---
 
 ## 📁 Projects Index
@@ -25,10 +30,6 @@ A collection of full-stack applications built by replicating assignment prompts 
 Projects 3, 4, 6, 7, 10, 12 share the CRISP-DM + admin-dashboard + AutoResearch pattern established in Projects 1–2; each project's own `README.md` explains its specific dataset, findings, and any honest negative/surprising results (all of them have at least one — see each `RESEARCH_REPORT.md`). Project 11 audits all of them with real, evidence-backed checks rather than a subjective writeup.
 
 ---
-
-## 🧠 Implementation Plans
-
-Per-project architecture, data model, key technical decisions, and verification/acceptance criteria are cataloged in [`IMPLEMENTATION_PLANS.md`](./IMPLEMENTATION_PLANS.md), linking out to each project's own `DESIGN_DOC.md`.
 
 ## 🚀 Running a Project
 
