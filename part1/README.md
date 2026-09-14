@@ -6,6 +6,15 @@ This repository applies the CRISP-DM methodology to a historical NBA player-seas
 
 The answer is cautiously affirmative. On a locked 2019–2022 test period, the selected weighted Histogram Gradient Boosting model achieved an all-player RMSE of **0.0263**, vote-recipient RMSE of **0.1553**, mean **NDCG@5 of 0.8934**, mean winner rank of **1.25**, and top-1 accuracy of **75%**. These results are substantially better than the Win Shares baseline, but the four-season test is too small to support broad claims about every future NBA era.
 
+## Reports and publication links
+
+- [Research-style final report (PDF)](reports/NBA_MVP_CRISP_DM_Final_Report.pdf)
+- [Research-style final report (DOCX)](reports/NBA_MVP_CRISP_DM_Final_Report.docx)
+- [Medium article draft](reports/medium_article.md)
+- Medium publication: [Can Player Statistics Predict the NBA MVP Vote?](https://medium.com/@meron.tesfandrias/can-player-statistics-predict-the-nba-mvp-vote-423734ea3c77)
+- YouTube walkthrough: [CMPE255 HW1 Part 1](https://www.youtube.com/watch?v=gVgGvmSpkgY)
+- Chat transcript: [ChatGPT Conversation Transcript](https://github.com/MeronDT/CMPE255-Assignment1/blob/main/part1/reports/ChatGPT_Transcript.pdf)
+
 ## Headline results
 
 | Model | All-player RMSE ↓ | Recipient RMSE ↓ | R² ↑ | NDCG@5 ↑ | Winner rank ↓ | Top-1 ↑ |
@@ -179,18 +188,9 @@ The locked test contains only four seasons and two unique winners. Histogram GB 
 
 See [MODEL_CARD.md](MODEL_CARD.md) for intended use, risks, monitoring, and retraining rules.
 
-## Reports and publication links
-
-- [Research-style final report (PDF)](reports/NBA_MVP_CRISP_DM_Final_Report.pdf)
-- [Research-style final report (DOCX)](reports/NBA_MVP_CRISP_DM_Final_Report.docx)
-- [Medium article draft](reports/medium_article.md)
-- Medium publication (currently unlisted): [Can Player Statistics Predict the NBA MVP Vote?](https://medium.com/@meron.tesfandrias/can-player-statistics-predict-the-nba-mvp-vote-423734ea3c77)
-- YouTube walkthrough: `<ADD-YOUTUBE-URL-AFTER-RECORDING>`
-- Chat transcript: submit/export separately according to the assignment instructions
-
 ## AI-use disclosure
 
-ChatGPT was used as a collaborative data-science assistant to plan the CRISP-DM workflow, inspect data-quality choices, write and execute Python analyses, interpret results, and draft documentation. The author is responsible for reviewing the code, validating the outputs, editing the prose into their own voice, and complying with course policies. The complete chat transcript will be exported separately for transparency.
+ChatGPT was used as a collaborative data-science assistant to plan the CRISP-DM workflow, inspect data-quality choices, write and execute Python analyses, interpret results, and draft documentation.
 
 ## Citation
 
