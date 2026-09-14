@@ -4,9 +4,8 @@ A collection of full-stack applications built by replicating assignment prompts 
 
 ## 📎 Links
 
-- Implementation plans: [`IMPLEMENTATION_PLANS.md`](./IMPLEMENTATION_PLANS.md) — per-project architecture, data model, key technical decisions, and verification/acceptance criteria, linking out to each project's own `DESIGN_DOC.md`.
-- YouTube walkthrough: `<ADD-YOUTUBE-URL-AFTER-RECORDING>`
-
+- Implementation plans: [IMPLEMENTATION_PLANS.md](./IMPLEMENTATION_PLANS.md) linking out to each project's own `DESIGN_DOC.md`.
+- YouTube walkthrough: [CMPE255 HW1 Part 2](https://www.youtube.com/watch?v=r_1ORG4BMhw)
 ---
 
 ## 📁 Projects Index
